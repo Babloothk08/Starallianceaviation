@@ -238,7 +238,7 @@ export const blogPosts = [
     author: "Star Alliance Aviation Academy ",
     readTime: "8 min read",
     image:
-      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/Top-Skills-You’ll-Learn-in-Our-Cabin-Crew-Training-Program.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/blog3.jpg",
     excerpt:
       "To foster the next generation of aviators, a sound foundation is essential. However, it is the advanced training that differentiates an aviator from the pack when it comes to skill and career possibilities. The Star Alliance Aviation Academy, a pilot training academy in Delhi, moves beyond typical flight instruction by providing deluxe pilot training programs that align with industry needs and meet advanced training standards. Whether you are an upcoming pilot in the Delhi NCR area, a parent reading on the best aviation training choices for your child, or an aviation enthusiast catching the hottest and best- level training on safety, our academy offers many programs that will help the aviators of tomorrow be successful.",
     content: `
