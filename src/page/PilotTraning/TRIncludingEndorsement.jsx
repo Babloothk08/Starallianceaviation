@@ -9,9 +9,9 @@ export default function TRIncludingEndorsement() {
   return (
     <div>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>TR Including Endorsement | Star Alliance Aviation.</title>
+        <meta name="description" content="Star Alliance Aviation offers type rating and CPL endorsement courses with international standards. Train on Airbus & Boeing aircraft with experts." />
+        <link rel="canonical"href="https://starallianceaviation.com/tr-including-endorsement/"/>
       </Helmet>
       <section
         style={{

@@ -9,9 +9,9 @@ export default function CadetPilotProgram() {
   return (
     <div>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>Star Alliance – Cadet Pilot Program for Aspiring Pilots.</title>
+        <meta name="description" content="Join India’s top Cadet Pilot Program at Star Alliance Aviation. Industry-aligned training, professional grooming, and career-ready pilot preparation." />
+        <link rel="canonical" href="https://starallianceaviation.com/cadet-pilot-program/" />
       </Helmet>
       {/* Hero Section */}
       <section
