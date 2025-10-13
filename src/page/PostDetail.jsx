@@ -29,9 +29,9 @@ export default function PostDetail() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 sm:pt-48">
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>{post.metatitle}</title>
+        <meta name="description" content={post.metadescription} />
+        <link rel="canonical" href={post.canonical} />
       </Helmet>
       {/* Post Image */}
       <div className="relative mb-8">

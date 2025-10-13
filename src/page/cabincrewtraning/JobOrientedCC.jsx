@@ -12,7 +12,7 @@ const JobOrientedCC = () => {
         <title>Job-Oriented Cabin Crew Training | Star Alliance Aviation.</title>
         <meta name="description" content="Star Alliance Aviation offers career-focused Cabin Crew training with real-world skills, airline interview coaching & 100% placement assistance." />
         <link rel="canonical" href="https://starallianceaviation.com/job-oriented-cc-training/" />s
-      </Helmet>s
+      </Helmet>
       {/* Hero Section */}
       <section
         style={{

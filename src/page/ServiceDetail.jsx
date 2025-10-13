@@ -18,9 +18,9 @@ const ServiceDetail = () => {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>{service.metatitle}</title>
+        <meta name="description" content={service.metadescription} />
+        <link rel="canonical" href={service.canonical} />
       </Helmet>
       <section
         style={{

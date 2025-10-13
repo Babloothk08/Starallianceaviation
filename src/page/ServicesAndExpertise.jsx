@@ -16,11 +16,11 @@ const ServicesAndExpertise = () => {
   });
   return (
     <>
-      <Helmet>
-        <title>Expert Aviation Solutions & Career Services | Star Alliance.</title>
-        <meta name="description" content="Discover expert aviation training, medical assistance, counselling, and job support services offered by Star Alliance Aviation for aspiring professionals." />
-        <link rel="canonical" href="https://starallianceaviation.com/services-expertise/" />
-      </Helmet>
+     <Helmet>
+           <title>Expert Aviation Solutions & Career Services | Star Alliance.</title>
+           <meta name="description" content="Discover expert aviation training, medical assistance, counselling, and job support services offered by Star Alliance Aviation for aspiring professionals." />
+           <link rel="canonical" href="https://starallianceaviation.com/services-expertise/" />
+         </Helmet>
       {/* Hero Section */}
       <section
         style={{
