@@ -14,6 +14,68 @@ export default function AboutUs() {
         <title>Star Alliance Aviation | Trusted Aviation Training institute .</title>
         <meta name="description" content="Star Alliance Aviation Academy: Founded by aviation veterans, committed to top-tier pilot and cabin crew training." />
         <link rel="canonical" href="https://starallianceaviation.com/about-us/" />
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          "name": "Star Alliance Aviation Academy",
+          "url": "https://starallianceaviation.com/about-us",
+          "logo": "https://starallianceaviation.com/logo.png",
+          "foundingDate": "2022",
+          "description": "Star Alliance Aviation Academy is a leading aviation training institute in New Delhi offering pilot, cabin crew, and aviation management courses, committed to excellence, integrity, and innovation.",
+          "address": {
+            "@type": "PostalAddress",
+          "streetAddress": "E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building",
+          "addressLocality": "New Delhi",
+          "postalCode": "110075",
+          "addressCountry": "IN"
+  },
+          "contactPoint": {
+            "@type": "ContactPoint",
+          "telephone": "+91 92895 95558",
+          "contactType": "customer service",
+          "areaServed": "IN"
+  },
+          "sameAs": [
+          "https://www.facebook.com/starallianceaviationacademy/",
+          "https://www.instagram.com/starallianceaviation/?hl=en",
+          "https://www.youtube.com/@starallianceaviationacademy",
+          "https://www.linkedin.com/company/starallianceaviationacademy/",
+          "https://in.pinterest.com/starallianceaviationacademy/",
+          "https://x.com/staralliance_in"
+          ]
+}
+        </script>
+
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+          "@type": "WebPage",
+          "url": "https://starallianceaviation.com/about-us",
+          "name": "About Us – Star Alliance Aviation Academy",
+          "description": "Learn more about Star Alliance Aviation Academy — our mission, values, team and commitment to delivering top‑quality aviation training.",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+          "itemListElement": [
+          {
+            "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://starallianceaviation.com/"
+      },
+          {
+            "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://starallianceaviation.com/about-us"
+      }
+          ]
+  }
+}`}
+        </script>
+
+
+
       </Helmet>
       <section
         style={{

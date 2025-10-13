@@ -26,7 +26,63 @@ export default function Home() {
           name="description"
           content="Star Alliance Aviation Academy – India’s premier aviation training centre, led by former DGCA experts. Comprehensive pilot, cabin‑crew & airline."
         />
-        <link rel="canonical" href="https://starallianceaviation.com/" />
+        <link rel="canonical" href="https://starallianceaviation.com/"/>
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://starallianceaviation.com/",
+          "name": "Star Alliance Aviation Academy",
+          "description": "Star Alliance Aviation Academy is a premier aviation training institute based in New Delhi, offering top-tier courses in cabin crew, ground staff, and aviation management.",
+          "url": "https://starallianceaviation.com/",
+          "image": "https://starallianceaviation.com/logo.png",
+          "telephone": "+91 92895 95558",
+          "address": {
+            "@type": "PostalAddress",
+          "streetAddress": "E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building",
+          "addressLocality": "New Delhi",
+          "postalCode": "110075",
+          "addressCountry": "IN"
+  },
+          "geo": {
+            "@type": "GeoCoordinates",
+          "latitude": 28.5861536,
+          "longitude": 77.0714892
+  },
+          "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "20:00"
+    },
+          {
+            "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "Closed",
+          "closes": "Closed"
+    }
+          ],
+          "sameAs": [
+          "https://www.facebook.com/starallianceaviationacademy/",
+          "https://www.instagram.com/starallianceaviation/?hl=en",
+          "https://www.youtube.com/@starallianceaviationacademy",
+          "https://www.linkedin.com/company/starallianceaviationacademy/",
+          "https://in.pinterest.com/starallianceaviationacademy/",
+          "https://x.com/staralliance_in"
+          ]
+}`}
+        </script>
+
+
+
       </Helmet>
       <HeroSlider />
       <section className="flex justify-center px-4 py-12 border-b-2">
@@ -40,9 +96,9 @@ export default function Home() {
             {/* <span className="text-red-600 text-xs sm:text-sm uppercase tracking-wider font-semibold">
               Who We Are
             </span> */}
-            <h2 className="text-primary text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 leading-snug">
+            <h1 className="text-primary text-2xl sm:text-3xl lg:text-4xl font-bold mt-2 leading-snug">
               Star Alliance Aviation Academy
-            </h2>
+            </h1>
             <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify text-sm sm:text-base">
               Star Alliance Aviation Academy consists of passionate and
               dedicated professionals focused on delivering top-quality products
