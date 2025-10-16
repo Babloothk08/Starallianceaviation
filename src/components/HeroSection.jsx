@@ -28,7 +28,8 @@ const HeroSection = () => (
         autoPlay
         loop
         muted
-        src={Video1}
+        src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/video/permotionvideo.mp4"
+
       />
     </div>
     <div className="flex sm:hidden">
@@ -38,7 +39,7 @@ const HeroSection = () => (
         loop
         muted
         playsInline
-        src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/video/Mobile%20view.mp4"
+        src="https://raw.githubusercontent.com/Ashish-Kaintura/starallianceaviation-/main/src/video/permotionvideo.mp4"
       />
     </div>
   </>
