@@ -9,9 +9,9 @@ export default function CPLGroundClasses() {
   return (
     <div>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
-        <link rel="canonical" href="" />
+        <title>CPL Ground Classes | Star Alliance Aviation Academy</title>
+        <meta name="description" content="Prepare for your Commercial Pilot Licence with top-rated CPL Ground Classes at Star Alliance Aviation Academy. Expert faculty & proven success record." />
+        <link rel="canonical" href="https://starallianceaviation.com/cpl-ground-classes/" />
       </Helmet>
       {/* Hero Section */}
       <section
