@@ -55,6 +55,11 @@ const Navbar = () => {
     ],
     cabin: [
       { name: "Job Oriented CC Training", path: "/job-oriented-cc-training" },
+      { name: "Diploma In Cabin Crew Training", path: "/diploma-in-cabin-crew-training" },
+      { name: "Grooming & Personality Development for Cabin Crew", path: "/grooming-personality-development" },
+      { name: "Safety & Emergency Procedures Training", path: "/safety-emergency-procedures" },
+      { name: "Aviation English & Communication Skills", path: "/aviation-english-communication" },
+      { name: "Hospitality & Aviation Management", path: "/hospitality-aviation-mangement" },
     ],
     services: [
       { name: "NSOP Management", path: "/nsop-management" },

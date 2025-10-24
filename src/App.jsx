@@ -12,6 +12,11 @@ import FAQSection from "./components/FAQSection";
 import SocialMedia from "./components/SocialMedia";
 import WhatsAppSticky from "./components/WhatsAppSticky";
 import { Toaster } from "react-hot-toast";
+import DiplomainCabinCrewTraining from "./page/cabincrewtraning/DiplomainCabinCrewTraining";
+import GroomingPersonality from "./page/cabincrewtraning/GroomingPersonality";
+import SafetyEmergencyTraining from "./page/cabincrewtraning/SafetyEmergencyTraining";
+import AviationEnglishCommunication from "./page/cabincrewtraning/AviationEnglishCommunication";
+import HospitalityAviationManagement from "./page/cabincrewtraning/HospitalityAviationManagement";
 
 // ✅ Lazy-loaded pages
 const Home = lazy(() => import("./page/Home"));
@@ -113,6 +118,11 @@ const App = () => {
           <Route path="/class-12-medical" element={<ClassMedical />} />
 
           <Route path="/cabin-crew-training" element={<CabinCrew />} />
+          <Route path="/diploma-in-cabin-crew-training" element={<DiplomainCabinCrewTraining />} />
+          <Route path="/grooming-personality-development" element={<GroomingPersonality />} />
+          <Route path="/safety-emergency-procedures" element={<SafetyEmergencyTraining />} />
+          <Route path="/aviation-english-communication" element={<AviationEnglishCommunication />} />
+          <Route path="/hospitality-aviation-mangement" element={<HospitalityAviationManagement />} />
           <Route
             path="/counselling-for-reappearance"
             element={<CounsellingReappearance />}
