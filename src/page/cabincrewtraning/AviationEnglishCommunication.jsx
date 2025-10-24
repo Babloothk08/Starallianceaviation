@@ -15,7 +15,7 @@ export default function AviationEnglishCommunication() {
             </Helmet>
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Oral-Viva-banner.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/vmDbf0qT/Gemini-Generated-Image-sdjq15sdjq15sdjq.png)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

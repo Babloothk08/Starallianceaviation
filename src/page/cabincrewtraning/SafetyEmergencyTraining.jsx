@@ -15,7 +15,7 @@ export default function SafetyEmergencyTraining() {
             </Helmet>
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Oral-Viva-banner.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/RFR6hsNR/Gemini-Generated-Image-i23n6gi23n6gi23n.png)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
