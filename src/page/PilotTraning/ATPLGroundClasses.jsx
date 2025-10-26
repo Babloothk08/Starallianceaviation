@@ -11,7 +11,7 @@ export default function ATPLGroundClasses() {
       <Helmet>
         <title>Airline Pilot Ground Training | Star Alliance Aviation.</title>
         <meta name="description" content="Star Alliance Aviation offers comprehensive ATPL ground training in India. Master advanced aviation subjects with guidance from industry veterans." />
-        <link rel="canonical" href="https://starallianceaviation.com/atpl-ground-classes/" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/atpl-ground-classes/" />
       </Helmet>
       <section
         style={{

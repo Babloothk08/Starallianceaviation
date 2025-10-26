@@ -57,7 +57,7 @@ const AirlinesPreparation = () => {
       <Helmet>
         <title>Airline Preparation Course | Star Alliance Aviation.</title>
         <meta name="description" content="Get airline-ready with Star Alliance’s preparation course. Includes interview training, aptitude tests, group tasks, and simulator exposure." />
-        <link rel="canonical" href="https://starallianceaviation.com/airlines-preparation-course/" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/airlines-preparation-course/" />
       </Helmet>
       <section
         style={{

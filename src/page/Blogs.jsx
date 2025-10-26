@@ -33,7 +33,7 @@ export default function Blogs() {
       <Helmet>
         <title>Explore Our Blog | Star Alliance Aviation.</title>
         <meta name="description" content="Explore expert articles on aviation careers, training, health, and strategy from Star Alliance Aviation’s Blog." />
-        <link rel="canonical" href="https://starallianceaviation.com/blog" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/blog" />
       </Helmet>
       <h1 className="text-3xl font-bold mb-6 text-gar-700">Latest Articles</h1>
 

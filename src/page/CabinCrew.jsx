@@ -12,7 +12,7 @@ const CabinCrew = () => {
       <Helmet>
         <title>Cabin Crew Training in Delhi | Star Alliance Aviation Academy</title>
         <meta name="description" content="Cabin Crew Training Delhi, Airline Cabin Crew Course, Customer Service, In‑Flight Safety, Cabin Crew Academy India, Aviation Hospitality Training" />
-        <link rel="canonical" href="https://starallianceaviation.com/cabin-crew-training/" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/cabin-crew-training/" />
         <script type="application/ld+json">
           {`
     {
@@ -20,18 +20,18 @@ const CabinCrew = () => {
       "@type": "Course",
       "name": "Cabin Crew Training Program ‒ Star Alliance Aviation Academy",
       "description": "Comprehensive cabin crew training covering safety procedures, in-flight service, grooming, customer handling, and aviation regulations by Star Alliance Aviation Academy in New Delhi.",
-      "url": "https://starallianceaviation.com/cabin-crew-training/",
+      "url": "https://www.starallianceaviation.com/cabin-crew-training/",
       "provider": {
         "@type": "EducationalOrganization",
         "name": "Star Alliance Aviation Academy",
         "url": "https://starallianceaviation.com",
-        "logo": "https://starallianceaviation.com/logo.png"
+        "logo": "https://www.starallianceaviation.com/logo.png"
       },
       "offers": {
         "@type": "Offer",
         "price": "49999",
         "priceCurrency": "INR",
-        "url": "https://starallianceaviation.com/enroll-cabin-crew-training",
+        "url": "https://www.starallianceaviation.com/enroll-cabin-crew-training",
         "availability": "https://schema.org/InStock"
       },
       "inLanguage": "English",

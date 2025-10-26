@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
       <Helmet>
         <title>Privacy Policy – Star Alliance Aviation Academy</title>
         <meta name="description" content="Review the privacy policy of Star Alliance Aviation to learn how we collect, use, and protect your data. Transparency and trust are our top priorities." />
-        <link rel="canonical" href="https://starallianceaviation.com/privacy-policy" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/privacy-policy" />
       </Helmet>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 pt-32">
         <div className="max-w-6xl mx-auto bg-white shadow-xl rounded-2xl p-10 relative overflow-hidden">

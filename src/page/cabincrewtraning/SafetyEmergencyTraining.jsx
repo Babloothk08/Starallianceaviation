@@ -11,11 +11,11 @@ export default function SafetyEmergencyTraining() {
             <Helmet>
                 <title>Safety & Emergency Procedures Training</title>
                 <meta name="description" content="" />
-                <link rel="canonical" href="https://starallianceaviation.com/diploma-in-cabin-crew-Training/" />
+                <link rel="canonical" href="https://www.starallianceaviation.com/diploma-in-cabin-crew-Training/" />
             </Helmet>
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Oral-Viva-banner.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/jq9MfTxc/Hero-Safety-Emergency-Training.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -47,7 +47,7 @@ export default function SafetyEmergencyTraining() {
                     <div className="flex flex-col items-center w-full lg:w-1/2 relative">
                         <img
                             loading="lazy"
-                            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg"
+                            src="https://proflight.com/media/07/9c/6a/1724694465/PF_IMG_Kurzstrecke_1.webp?ts=1724695137"
                             alt="Pilot"
                             className="w-[70%] object-cover shadow-lg rounded-full"
                         />

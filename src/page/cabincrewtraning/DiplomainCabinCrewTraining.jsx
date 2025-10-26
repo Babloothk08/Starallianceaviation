@@ -11,7 +11,7 @@ export default function DiplomainCabinCrewTraining() {
       <Helmet>
         <title>Diploma in Cabin Crew Training</title>
         <meta name="description" content="Join our diploma program to build a professional career as a certified cabin crew member." />
-        <link rel="canonical" href="https://starallianceaviation.com/diploma-in-cabin-crew-Training/" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/diploma-in-cabin-crew-Training/" />
       </Helmet>
       <section
         style={{
@@ -47,7 +47,7 @@ export default function DiplomainCabinCrewTraining() {
           <div className="flex flex-col items-center w-full lg:w-1/2 relative">
             <img
               loading="lazy"
-              src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg"
+              src="https://i.postimg.cc/HsrsSw1R/KB38.jpg"
               alt="Pilot"
               className="w-[70%] object-cover shadow-lg rounded-full"
             />

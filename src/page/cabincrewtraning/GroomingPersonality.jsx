@@ -11,7 +11,7 @@ export default function GroomingPersonality() {
             <Helmet>
                 <title>Grooming & Personality Development for Cabin Crew</title>
                 <meta name="description" content="" />
-                <link rel="canonical" href="https://starallianceaviation.com/diploma-in-cabin-crew-Training/" />
+                <link rel="canonical" href="https://www.starallianceaviation.com/diploma-in-cabin-crew-Training/" />
             </Helmet>
             <section
                 style={{
@@ -47,9 +47,9 @@ export default function GroomingPersonality() {
                     <div className="flex flex-col items-center w-full lg:w-1/2 relative">
                         <img
                             loading="lazy"
-                            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg"
+                            src="https://i.postimg.cc/d19K11PH/Untitled-design2-1-1024x576.png"
                             alt="Pilot"
-                            className="w-[70%] object-cover shadow-lg rounded-full"
+                            className="w-[100%] object-cover shadow-lg rounded-full"
                         />
                     </div>
                     <div className="flex flex-col justify-start w-full lg:w-1/2">

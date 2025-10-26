@@ -3,7 +3,7 @@ import Video2 from "../video/Mobile view.mp4";
 const HeroSection = () => (
   // <section
   //   style={{
-  //     backgroundImage: `url(https://starallianceaviation.com/wp-content/uploads/slider/cache/4270373fa999cbea84885420d65be5b2/banner01.jpg)`,
+  //     backgroundImage: `url(https://www.starallianceaviation.com/wp-content/uploads/slider/cache/4270373fa999cbea84885420d65be5b2/banner01.jpg)`,
   //   }}
   //   className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-screen"
   // >

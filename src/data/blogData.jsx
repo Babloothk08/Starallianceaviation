@@ -4,7 +4,7 @@ export const blogPosts = [
     slug: "why-star-alliance-aviation-academy-is-the-right-choice-for-aspiring-pilots",
     metatitle: "The Right Choice for Aspiring Pilots | Star Alliance Aviation Academy",
     metadescription: "Discover why Star Alliance Aviation stands out for aspiring pilots—DGCA‑compliant programs, expert instructors, transparent fees, simulator training, and unmatched placement support.",
-    canonical: "https://starallianceaviation.com/blog/why-star-alliance-aviation-academy-is-the-right-choice-for-aspiring-pilots",
+    canonical: "https://www.starallianceaviation.com/blog/why-star-alliance-aviation-academy-is-the-right-choice-for-aspiring-pilots",
     title:
       "Why Star Alliance Aviation Academy  Is the Right Choice for Aspiring Pilots",
     category: "About Aviation",
@@ -84,7 +84,7 @@ export const blogPosts = [
     id: 2,
     metatitle: "Our Cabin Crew Training Program | Star Alliance Aviation",
     metadescription: "Our Cabin Crew Training Program | Star Alliance Aviation",
-    canonical: "https://starallianceaviation.com/blog/Top-Skills-You-will-Learn-in-Our-Cabin-Crew-Training-Program",
+    canonical: "https://www.starallianceaviation.com/blog/Top-Skills-You-will-Learn-in-Our-Cabin-Crew-Training-Program",
     slug: "Top-Skills-You-will-Learn-in-Our-Cabin-Crew-Training-Program",
     title: "Top Skills You’ll Learn in Our Cabin Crew Training Program",
     category: "Aviation Training Skills",

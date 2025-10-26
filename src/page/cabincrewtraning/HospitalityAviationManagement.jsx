@@ -11,11 +11,11 @@ export default function HospitalityAviationManagement() {
             <Helmet>
                 <title>Hospitality & Aviation Management Course | Star Alliance Aviation.</title>
                 <meta name="description" content="Start your journey in aviation & hospitality with our specialized management course. Get trained by experts and land top industry jobs." />
-                <link rel="canonical" href="https://starallianceaviation.com/hospitality-aviation-mangement" />
+                <link rel="canonical" href="https://www.starallianceaviation.com/hospitality-aviation-mangement" />
             </Helmet>
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Oral-Viva-banner.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -47,7 +47,7 @@ export default function HospitalityAviationManagement() {
                     <div className="flex flex-col items-center w-full lg:w-1/2 relative">
                         <img
                             loading="lazy"
-                            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg"
+                            src="https://i.postimg.cc/HkJcyGLy/Aviation-Hospitality-Management.webp"
                             alt="Pilot"
                             className="w-[70%] object-cover shadow-lg rounded-full"
                         />

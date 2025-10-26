@@ -11,7 +11,7 @@ const CounsellingReappearance = () => {
       <Helmet>
         <title>Counselling for Reappearance Exams | Star Alliance Aviation</title>
         <meta name="description" content="" />
-        <link rel="canonical" href="https://starallianceaviation.com/counselling-for-reappearance/" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/counselling-for-reappearance/" />
       </Helmet>
       <section
         style={{

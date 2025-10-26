@@ -26,16 +26,16 @@ export default function Home() {
           name="description"
           content="Star Alliance Aviation Academy – India’s premier aviation training centre, led by former DGCA experts. Comprehensive pilot, cabin‑crew & airline."
         />
-        <link rel="canonical" href="https://starallianceaviation.com/"/>
+        <link rel="canonical" href="https://www.starallianceaviation.com/"/>
         <script type="application/ld+json">
           {`{
             "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "@id": "https://starallianceaviation.com/",
+          "@id": "https://www.starallianceaviation.com/",
           "name": "Star Alliance Aviation Academy",
           "description": "Star Alliance Aviation Academy is a premier aviation training institute based in New Delhi, offering top-tier courses in cabin crew, ground staff, and aviation management.",
-          "url": "https://starallianceaviation.com/",
-          "image": "https://starallianceaviation.com/logo.png",
+          "url": "https://www.starallianceaviation.com/",
+          "image": "https://www.starallianceaviation.com/logo.png",
           "telephone": "+91 92895 95558",
           "address": {
             "@type": "PostalAddress",
