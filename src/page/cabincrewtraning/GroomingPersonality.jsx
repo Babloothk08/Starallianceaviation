@@ -8,11 +8,11 @@ export default function GroomingPersonality() {
     });
     return (
         <div>
-            <Helmet>
+            {/* <Helmet>
                 <title>Grooming & Personality Development for Cabin Crew</title>
                 <meta name="description" content="" />
                 <link rel="canonical" href="https://www.starallianceaviation.com/diploma-in-cabin-crew-Training/" />
-            </Helmet>
+            </Helmet> */}
             <section
                 style={{
                     backgroundImage: `url(https://i.postimg.cc/9fhYq9gG/Gemini-Generated-Image-7qcae7qcae7qcae7.png)`,

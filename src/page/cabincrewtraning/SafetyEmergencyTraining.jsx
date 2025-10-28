@@ -8,11 +8,11 @@ export default function SafetyEmergencyTraining() {
     });
     return (
         <div>
-            <Helmet>
+            {/* <Helmet>
                 <title>Safety & Emergency Procedures Training</title>
                 <meta name="description" content="" />
                 <link rel="canonical" href="https://www.starallianceaviation.com/diploma-in-cabin-crew-Training/" />
-            </Helmet>
+            </Helmet> */}
             <section
                 style={{
                     backgroundImage: `url(https://i.postimg.cc/jq9MfTxc/Hero-Safety-Emergency-Training.jpg)`,

@@ -8,11 +8,11 @@ export default function DiplomainCabinCrewTraining() {
   });
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <title>Diploma in Cabin Crew Training</title>
         <meta name="description" content="Join our diploma program to build a professional career as a certified cabin crew member." />
         <link rel="canonical" href="https://www.starallianceaviation.com/diploma-in-cabin-crew-Training/" />
-      </Helmet>
+      </Helmet> */}
       <section
         style={{
           backgroundImage: `url(https://i.postimg.cc/sfwHdT69/Gemini-Generated-Image-y3rjjty3rjjty3rj.png)`,

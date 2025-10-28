@@ -17,11 +17,11 @@ const ContactPage = () => {
   });
   return (
     <div className="bg-gray-50 min-h-screen">
-      <Helmet>
+      {/* <Helmet>
         <title>Contact Star Alliance Aviation | Get in Touch .</title>
         <meta name="description" content="Achieve your aviation career goals with Strategic Counselling—trusted advice, goal-oriented planning, and expert mentorship from industry leaders." />
         <link rel="canonical" href="https://www.starallianceaviation.com/contact-us/" />
-      </Helmet>
+      </Helmet> */}
       <Toaster position="top-center" reverseOrder={false} />
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-primary to-gray-900 text-white py-20 px-6 md:px-16 lg:px-24 text-center pt-48">

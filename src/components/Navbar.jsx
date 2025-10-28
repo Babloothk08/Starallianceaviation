@@ -173,7 +173,7 @@ const Navbar = () => {
               {activeDropdown === "pilot" && renderDropdown("pilot")}
             </li>
 
-            <li
+            {/* <li
               className="relative group"
               onMouseEnter={() => setActiveDropdown("cabin")}
               onMouseLeave={() => setActiveDropdown(null)}
@@ -184,7 +184,7 @@ const Navbar = () => {
                 </div>
               </NavLink>
               {activeDropdown === "cabin" && renderDropdown("cabin")}
-            </li>
+            </li> */}
 
             <li
               className="relative group"
@@ -279,7 +279,7 @@ const Navbar = () => {
               </li>
 
               {/* Cabin Crew */}
-              <li>
+              {/* <li>
                 <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   <NavLink to="/cabin-crew-training">
                     {" "}
@@ -308,7 +308,7 @@ const Navbar = () => {
                     ))}
                   </ul>
                 )}
-              </li>
+              </li> */}
 
               {/* Services */}
               <li>

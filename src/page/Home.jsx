@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       {/* <HeroSection /> */}
-      <Helmet>
+      {/* <Helmet>
         <title>
           Best Pilot Training Academy in Delhi , India | Star Alliance Aviation.
         </title>
@@ -82,7 +82,7 @@ export default function Home() {
             ],
           })}
         </script>
-      </Helmet>
+      </Helmet> */}
 
       {/* <HeroSlider /> */}
       <HeroSection/>

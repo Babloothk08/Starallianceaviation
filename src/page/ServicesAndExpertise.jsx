@@ -16,7 +16,7 @@ const ServicesAndExpertise = () => {
   });
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Expert Aviation Solutions & Career Services | Star Alliance.</title>
         <meta name="description" content="Discover expert aviation training, medical assistance, counselling, and job support services offered by Star Alliance Aviation for aspiring professionals." />
         <link rel="canonical" href="https://www.starallianceaviation.com/services-expertise/" />
@@ -69,7 +69,7 @@ const ServicesAndExpertise = () => {
 
 
 
-      </Helmet>
+      </Helmet> */}
       {/* Hero Section */}
       <section
         style={{

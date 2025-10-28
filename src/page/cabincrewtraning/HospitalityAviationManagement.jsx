@@ -8,11 +8,11 @@ export default function HospitalityAviationManagement() {
     });
     return (
         <div>
-            <Helmet>
+            {/* <Helmet>
                 <title>Hospitality & Aviation Management Course | Star Alliance Aviation.</title>
                 <meta name="description" content="Start your journey in aviation & hospitality with our specialized management course. Get trained by experts and land top industry jobs." />
                 <link rel="canonical" href="https://www.starallianceaviation.com/hospitality-aviation-mangement" />
-            </Helmet>
+            </Helmet> */}
             <section
                 style={{
                     backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,

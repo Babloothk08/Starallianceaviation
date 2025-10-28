@@ -8,11 +8,11 @@ export default function AviationEnglishCommunication() {
     });
     return (
         <div>
-            <Helmet>
+            {/* <Helmet>
                 <title>Aviation English & Communication Skills</title>
                 <meta name="description" content="" />
                 <link rel="canonical" href="https://www.starallianceaviation.com/diploma-in-cabin-crew-Training/" />
-            </Helmet>
+            </Helmet> */}
             <section
                 style={{
                     backgroundImage: `url(https://i.postimg.cc/yd3vQpnJ/9861d29a4a6cd2a72102908c31cdd410b3894f9d.jpg)`,

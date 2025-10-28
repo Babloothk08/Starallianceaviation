@@ -10,7 +10,7 @@ export default function AboutUs() {
   });
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Star Alliance Aviation | Trusted Aviation Training institute .</title>
         <meta name="description" content="Star Alliance Aviation Academy: Founded by aviation veterans, committed to top-tier pilot and cabin crew training." />
         <link rel="canonical" href="https://www.starallianceaviation.com/about-us/" />
@@ -76,7 +76,7 @@ export default function AboutUs() {
 
 
 
-      </Helmet>
+      </Helmet> */}
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/About%20us%20banners.jpg)`,

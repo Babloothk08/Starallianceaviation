@@ -65,7 +65,7 @@ const PilotTraining = () => {
   });
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Best pilot Training | Star Alliance Aviation Academy</title>
         <meta name="description" content="Experience world-class aviation training at Star Alliance Aviation. Training delivers advanced skills and industry readiness for aspiring pilots and cabin crew. a" />
         <link rel="canonical" href="https://www.starallianceaviation.com/pilot-training/" />
@@ -145,7 +145,7 @@ const PilotTraining = () => {
 
 
 
-      </Helmet>
+      </Helmet> */}
       {/* Hero Section */}
       <section
         style={{

@@ -9,7 +9,7 @@ const CabinCrew = () => {
 
   return (
     <div className="bg-white text-gray-800 font-sans">
-      <Helmet>
+      {/* <Helmet>
         <title>Cabin Crew Training in Delhi | Star Alliance Aviation Academy</title>
         <meta name="description" content="Cabin Crew Training Delhi, Airline Cabin Crew Course, Customer Service, In‑Flight Safety, Cabin Crew Academy India, Aviation Hospitality Training" />
         <link rel="canonical" href="https://www.starallianceaviation.com/cabin-crew-training/" />
@@ -45,7 +45,7 @@ const CabinCrew = () => {
         </script>
 
 
-      </Helmet>
+      </Helmet> */}
       {/* Hero Section */}
       <div
         className=" bg-cover bg-center text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
