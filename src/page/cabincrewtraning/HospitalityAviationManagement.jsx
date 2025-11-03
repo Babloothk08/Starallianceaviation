@@ -1,21 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 import { Helmet } from "react-helmet";
-export default function HospitalityAviationManagement() {
+
+export default function HospitalityManagement() {
     useEffect(() => {
         window.scrollTo(0, 0);
-    });
+    }, []);
+
     return (
-        <div>
-            <Helmet>
-                <title>Hospitality & Aviation Management Course | Star Alliance Aviation.</title>
-                <meta name="description" content="Start your journey in aviation & hospitality with our specialized management course. Get trained by experts and land top industry jobs." />
-                <link rel="canonical" href="https://starallianceaviation.com/hospitality-aviation-mangement" />
-            </Helmet>
+        <div className="font-sans text-gray-800">
+            {/* SEO Meta */}
+            {/* <Helmet>
+        <title>Certificate Course in Hospitality Management | Star Alliance Aviation Academy</title>
+        <meta
+          name="description"
+          content="Enroll in our Certificate Course in Hospitality Management and gain expertise in front-office, customer service, F&B operations, and aviation hospitality."
+        />
+        <link
+          rel="canonical"
+          href="https://www.starallianceaviation.com/hospitality-management"
+        />
+      </Helmet> */}
+
+            {/* Hero Section */}
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Oral-Viva-banner.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -42,63 +52,162 @@ export default function HospitalityAviationManagement() {
                     </div>
                 </div>
             </section>
-            <section className="flex justify-center px-4 py-12 border-b-2">
+
+            {/* About Section */}
+            <section className="flex justify-center px-6 py-16 border-b border-gray-200">
                 <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
-                    <div className="flex flex-col items-center w-full lg:w-1/2 relative">
+                    <div className="w-full lg:w-1/2">
                         <img
+                            src="https://i.postimg.cc/HkJcyGLy/Aviation-Hospitality-Management.webp"
+                            alt="Hospitality Management"
+                            className="w-full max-w-md mx-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-300"
                             loading="lazy"
-                            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL%20Oral%20%2C%20Viva.jpg"
-                            alt="Pilot"
-                            className="w-[70%] object-cover shadow-lg rounded-full"
                         />
                     </div>
-                    <div className="flex flex-col justify-start w-full lg:w-1/2">
-                        {/* <h2 className="text-primary text-3xl font-bold mt-2">
-              Process of Hospitality & Aviation Management
-            </h2> */}
-                        <p className="text-gray-700 font-sans mt-6 leading-relaxed text-justify">
-                            The aviation industry is built on exceptional service and management. Our Hospitality & Aviation Management Course prepares you for an effective management position through customer service, operational dimensions, and professional demeanor—all skills that can be used in the cabin and the ground operations. <ul className="space-y-3 list-disc">
-                                <h2 className="text-primary text-xl font-bold my-3"> Course Content
 
-                                </h2>
-                                {[
-                                    "Introduction to hospitality and excellence in service",
-                                    "Airline and airport management approaches",
-                                    "Passenger experience and conflict management",
-                                    "Management and leadership of teams",
-                                    "Airline policies and service standards"
-
-
-
-                                ].map((item, index) => (
-                                    <li key={index} className="flex items-center space-x-3 list-disc">
-
-                                        <li className="list-disc" >{item}</li>
-                                    </li>
-                                ))}
-                            </ul>
-
+                    <div className="w-full lg:w-1/2">
+                        <h2 className="text-3xl font-bold text-primary mb-4">
+                            About the Course
+                        </h2>
+                        <p className="text-gray-700 leading-relaxed text-justify">
+                            The <strong>Certificate Course in Hospitality Management</strong> at
+                            Star Alliance Aviation Academy is designed for students aiming for
+                            a career in the aviation and hospitality sectors. This{" "}
+                            <strong>six-month program</strong> offers an immersive experience
+                            covering essential topics like front-office operations, customer
+                            service excellence, and hospitality management principles.
+                            <br />
+                            <br />
+                            Students gain an understanding of how the hospitality and aviation
+                            industries interconnect—exploring guest relations, flight support
+                            coordination, and global service standards under the mentorship of
+                            industry experts.
+                            <br />
+                            <br />
+                            The Academy emphasizes practical learning through simulations,
+                            real-world case studies, and internship opportunities with reputed
+                            airlines and hotels. This structured mix of theory and practical
+                            exposure ensures students are job-ready with professional skills
+                            that meet industry expectations.
+                            <br />
+                            <br />
+                            Graduates leave equipped to thrive in hospitality and aviation
+                            roles—bringing professionalism, confidence, and a passion for
+                            service to their future careers.
                         </p>
                     </div>
                 </div>
             </section>
-            <div className="max-w-6xl mx-auto py-12 font-sans text-gray-700 sm:px-0 px-4">
-                <h2 className="text-primary text-3xl font-bold my-3">
-                    What You Gain
+
+            {/* Modules Covered */}
+            <section className="max-w-6xl mx-auto px-6 py-14">
+                <h2 className="text-3xl font-bold text-primary mb-6">
+                    Modules Covered
                 </h2>
-                <p>
-                    Our methodology blends theory with experience. You will learn not just what to do but how to humanely ensure it is done as the best airline professionals can. </p>
-            </div>
-            <div className="max-w-6xl mx-auto py-12 font-sans text-gray-700 sm:px-0 px-4">
-                <h3 className="text-primary text-3xl font-bold my-3">
-                    Shape a Meaningful Career in Aviation
+                <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                    <div className="bg-gray-50 rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
+                        <h3 className="font-semibold text-lg mb-2">
+                            Introduction to Hospitality & Tourism
+                        </h3>
+                        <p className="text-sm">
+                            Learn the fundamentals of hospitality and how tourism connects to
+                            global aviation and customer experience.
+                        </p>
+                    </div>
+                    <div className="bg-gray-50 rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
+                        <h3 className="font-semibold text-lg mb-2">
+                            Front-Office & Reservation Systems
+                        </h3>
+                        <p className="text-sm">
+                            Understand reception, guest management, and reservation
+                            technology used in modern airlines and hotels.
+                        </p>
+                    </div>
+                    <div className="bg-gray-50 rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
+                        <h3 className="font-semibold text-lg mb-2">
+                            Food & Beverage Service Operations
+                        </h3>
+                        <p className="text-sm">
+                            Explore food service standards, in-flight catering, and
+                            guest-dining etiquette.
+                        </p>
+                    </div>
+                    <div className="bg-gray-50 rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
+                        <h3 className="font-semibold text-lg mb-2">
+                            Customer Service & Complaint Resolution
+                        </h3>
+                        <p className="text-sm">
+                            Master the art of guest handling, complaint resolution, and
+                            communication for a superior customer experience.
+                        </p>
+                    </div>
+                    <div className="bg-gray-50 rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
+                        <h3 className="font-semibold text-lg mb-2">
+                            Personality Development & Grooming
+                        </h3>
+                        <p className="text-sm">
+                            Enhance confidence, communication, and professional etiquette to
+                            excel in interviews and hospitality roles.
+                        </p>
+                    </div>
+                    <div className="bg-gray-50 rounded-2xl shadow-sm p-5 hover:shadow-md transition-all">
+                        <h3 className="font-semibold text-lg mb-2">
+                            Internship & Placement Guidance
+                        </h3>
+                        <p className="text-sm">
+                            Hands-on exposure to real-world hospitality operations and
+                            assistance with job placements.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-
-                </h3>
-                <p>
-                    Whether you are looking to work and travel as cabin crew or work in ground operations or management, this program provides you the tools and confidence to develop in the aviation industry internationally.
+            {/* Course Overview */}
+            <section className="max-w-6xl mx-auto px-6 py-14 border-t border-gray-200">
+                <h2 className="text-3xl font-bold text-primary mb-6">
+                    Course Overview
+                </h2>
+                <ul className="space-y-3 text-gray-700">
+                    <li>
+                        <strong>Duration:</strong> 6 Months
+                    </li>
+                    <li>
+                        <strong>Schedule:</strong> 4 Days/Week (2–4 Hours/Day)
+                    </li>
+                    <li>
+                        <strong>Eligibility:</strong> 12th Pass
+                    </li>
+                    <li>
+                        <strong>Age Limit:</strong> 17–24 Years
+                    </li>
+                </ul>
+                <p className="mt-4 text-gray-700 leading-relaxed">
+                    This program teaches students how to deliver world-class service in
+                    airlines, hotels, and travel companies — ideal for aspiring
+                    hospitality professionals and aviation staff.
                 </p>
-            </div>
+            </section>
+
+            {/* Career Opportunities */}
+            <section className="max-w-6xl mx-auto px-6 py-14 border-t border-gray-200">
+                <h2 className="text-3xl font-bold text-primary mb-6">
+                    Career Opportunities
+                </h2>
+                <div className="grid md:grid-cols-2 gap-3 text-gray-700">
+                    <div className="bg-gray-50 p-4 rounded-xl shadow-sm">
+                        Guest Relations Executive
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-xl shadow-sm">
+                        Front Office Manager
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-xl shadow-sm">
+                        Airline Hospitality Crew
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-xl shadow-sm">
+                        Lounge Attendant
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }

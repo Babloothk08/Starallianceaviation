@@ -16,15 +16,15 @@ const ServicesAndExpertise = () => {
   });
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Expert Aviation Solutions & Career Services | Star Alliance.</title>
         <meta name="description" content="Discover expert aviation training, medical assistance, counselling, and job support services offered by Star Alliance Aviation for aspiring professionals." />
-        <link rel="canonical" href="https://starallianceaviation.com/services-expertise/" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/services-expertise/" />
         <script type="application/ld+json">
           {`{
             "@context": "https://schema.org",
           "@type": "WebPage",
-          "url": "https://starallianceaviation.com/services-expertise",
+          "url": "https://www.starallianceaviation.com/services-expertise",
           "name": "Services & Expertise – Star Alliance Aviation Academy",
           "description": "Explore the specialized services and expertise offered by Star Alliance Aviation Academy, including pilot training, cabin crew development, aviation management courses, and regulatory liaison services.",
           "mainEntity": {
@@ -34,7 +34,7 @@ const ServicesAndExpertise = () => {
             "@type": "Organization",
           "name": "Star Alliance Aviation Academy",
           "url": "https://starallianceaviation.com",
-          "logo": "https://starallianceaviation.com/logo.png",
+          "logo": "https://www.starallianceaviation.com/logo.png",
           "sameAs": [
           "https://www.facebook.com/starallianceaviationacademy/",
           "https://www.instagram.com/starallianceaviation/?hl=en",
@@ -54,13 +54,13 @@ const ServicesAndExpertise = () => {
             "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://starallianceaviation.com/"
+          "item": "https://www.starallianceaviation.com/"
       },
           {
             "@type": "ListItem",
           "position": 2,
           "name": "Services & Expertise",
-          "item": "https://starallianceaviation.com/services-expertise"
+          "item": "https://www.starallianceaviation.com/services-expertise"
       }
           ]
   }
@@ -69,7 +69,7 @@ const ServicesAndExpertise = () => {
 
 
 
-      </Helmet>
+      </Helmet> */}
       {/* Hero Section */}
       <section
         style={{

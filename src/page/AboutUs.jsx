@@ -10,17 +10,17 @@ export default function AboutUs() {
   });
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Star Alliance Aviation | Trusted Aviation Training institute .</title>
         <meta name="description" content="Star Alliance Aviation Academy: Founded by aviation veterans, committed to top-tier pilot and cabin crew training." />
-        <link rel="canonical" href="https://starallianceaviation.com/about-us/" />
+        <link rel="canonical" href="https://www.starallianceaviation.com/about-us/" />
         <script type="application/ld+json">
           {`{
             "@context": "https://schema.org",
           "@type": "EducationalOrganization",
           "name": "Star Alliance Aviation Academy",
-          "url": "https://starallianceaviation.com/about-us",
-          "logo": "https://starallianceaviation.com/logo.png",
+          "url": "https://www.starallianceaviation.com/about-us",
+          "logo": "https://www.starallianceaviation.com/logo.png",
           "foundingDate": "2022",
           "description": "Star Alliance Aviation Academy is a leading aviation training institute in New Delhi offering pilot, cabin crew, and aviation management courses, committed to excellence, integrity, and innovation.",
           "address": {
@@ -51,7 +51,7 @@ export default function AboutUs() {
           {
             "@context": "https://schema.org",
           "@type": "WebPage",
-          "url": "https://starallianceaviation.com/about-us",
+          "url": "https://www.starallianceaviation.com/about-us",
           "name": "About Us – Star Alliance Aviation Academy",
           "description": "Learn more about Star Alliance Aviation Academy — our mission, values, team and commitment to delivering top‑quality aviation training.",
           "breadcrumb": {
@@ -61,13 +61,13 @@ export default function AboutUs() {
             "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://starallianceaviation.com/"
+          "item": "https://www.starallianceaviation.com/"
       },
           {
             "@type": "ListItem",
           "position": 2,
           "name": "About Us",
-          "item": "https://starallianceaviation.com/about-us"
+          "item": "https://www.starallianceaviation.com/about-us"
       }
           ]
   }
@@ -76,7 +76,7 @@ export default function AboutUs() {
 
 
 
-      </Helmet>
+      </Helmet> */}
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/About%20us%20banners.jpg)`,

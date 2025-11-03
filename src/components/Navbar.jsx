@@ -54,12 +54,10 @@ const Navbar = () => {
       { name: "Class-1,2 Medical", path: "/class-12-medical" },
     ],
     cabin: [
-      { name: "Job Oriented CC Training", path: "/job-oriented-cc-training" },
-      { name: "Diploma In Cabin Crew Training", path: "/diploma-in-cabin-crew-training" },
-      { name: "Grooming & Personality Development for Cabin Crew", path: "/grooming-personality-development" },
-      { name: "Safety & Emergency Procedures Training", path: "/safety-emergency-procedures" },
-      { name: "Aviation English & Communication Skills", path: "/aviation-english-communication" },
-      { name: "Hospitality & Aviation Management", path: "/hospitality-aviation-mangement" },
+      { name: "Hospitality Management", path: "/hospitality-aviation-mangement" },
+      { name: "Aviation, Hospitality and Travel Management", path: "/aviation-hospitality-travel-management" },
+      { name: "Hospitality, Travel & Customer Service", path: "/hospitality-travel-customer-service" },
+      { name: "Advance Certificate Course", path: "/advance-certificate-course" },
     ],
     services: [
       { name: "NSOP Management", path: "/nsop-management" },
@@ -279,7 +277,7 @@ const Navbar = () => {
               </li>
 
               {/* Cabin Crew */}
-              <li>
+              {/* <li>
                 <button className="flex w-full justify-between items-center px-3 py-2 rounded hover:bg-gray-100 hover:text-primary">
                   <NavLink to="/cabin-crew-training">
                     {" "}
@@ -308,7 +306,7 @@ const Navbar = () => {
                     ))}
                   </ul>
                 )}
-              </li>
+              </li> */}
 
               {/* Services */}
               <li>

@@ -12,11 +12,10 @@ import FAQSection from "./components/FAQSection";
 import SocialMedia from "./components/SocialMedia";
 import WhatsAppSticky from "./components/WhatsAppSticky";
 import { Toaster } from "react-hot-toast";
-import DiplomainCabinCrewTraining from "./page/cabincrewtraning/DiplomainCabinCrewTraining";
-import GroomingPersonality from "./page/cabincrewtraning/GroomingPersonality";
-import SafetyEmergencyTraining from "./page/cabincrewtraning/SafetyEmergencyTraining";
-import AviationEnglishCommunication from "./page/cabincrewtraning/AviationEnglishCommunication";
 import HospitalityAviationManagement from "./page/cabincrewtraning/HospitalityAviationManagement";
+import AviationTravelHospital from "./page/cabincrewtraning/AviationTravelHospital";
+import HospitalTravelCoustomer from "./page/cabincrewtraning/HospitalTravelCoustomer";
+import AdvanceCertifivate from "./page/cabincrewtraning/AdvanceCertifivate";
 
 // ✅ Lazy-loaded pages
 const Home = lazy(() => import("./page/Home"));
@@ -49,9 +48,6 @@ const TRIncludingEndorsement = lazy(() =>
 const CabinCrew = lazy(() => import("./page/CabinCrew"));
 const CounsellingReappearance = lazy(() =>
   import("./page/cabincrewtraning/CounsellingReappearance")
-);
-const JobOrientedCC = lazy(() =>
-  import("./page/cabincrewtraning/JobOrientedCC")
 );
 
 const ServicesAndExpertise = lazy(() => import("./page/ServicesAndExpertise"));
@@ -118,16 +114,15 @@ const App = () => {
           <Route path="/class-12-medical" element={<ClassMedical />} />
 
           <Route path="/cabin-crew-training" element={<CabinCrew />} />
-          <Route path="/diploma-in-cabin-crew-training" element={<DiplomainCabinCrewTraining />} />
-          <Route path="/grooming-personality-development" element={<GroomingPersonality />} />
-          <Route path="/safety-emergency-procedures" element={<SafetyEmergencyTraining />} />
-          <Route path="/aviation-english-communication" element={<AviationEnglishCommunication />} />
+
           <Route path="/hospitality-aviation-mangement" element={<HospitalityAviationManagement />} />
+          <Route path="/aviation-hospitality-travel-management" element={<AviationTravelHospital />} />
+          <Route path="/hospitality-travel-customer-service" element={<HospitalTravelCoustomer />} />
+          <Route path="/advance-certificate-course" element={<AdvanceCertifivate />} />
           <Route
             path="/counselling-for-reappearance"
             element={<CounsellingReappearance />}
           />
-          <Route path="/job-oriented-cc-training" element={<JobOrientedCC />} />
 
           <Route
             path="/services-expertise"
