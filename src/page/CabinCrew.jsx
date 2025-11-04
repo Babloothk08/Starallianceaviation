@@ -48,27 +48,36 @@ const CabinCrew = () => {
       </Helmet> */}
       {/* Hero Section */}
       <div
-        className=" bg-cover bg-center text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
+        className="
+    relative bg-cover bg-center bg-no-repeat text-white flex items-center justify-center p-8
+    h-[190px] sm:h-[520px] 2xl:h-[700px]
+    md:mt-0 mt-[72px]
+  "
         style={{
           backgroundImage:
-            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-crew-training-banner.jpg')",
+            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-Crew-Courses-BANNERS.jpg')",
         }}
       >
+        {/* Overlay */}
         <div className="absolute inset-0 bg-black/25"></div>
+
+        {/* Content */}
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-          <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
-            <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
+          <div className="text-white p-4 sm:p-5 max-w-2xl">
+            <h1 className="text-2xl sm:text-3xl font-bold font-heading animate-fade-in-down">
               Cabin Crew Training
             </h1>
-            <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
+
+            <h2 className="mt-2 text-xs sm:text-sm font-heading">
               <Link to="/" className="hover:underline text-blue-300">
                 Star Alliance Aviation Academy /
               </Link>{" "}
               Cabin Crew Training
             </h2>
+
             <Link
               to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 hover:text-gray-800 transition"
             >
               Make an Appointment
             </Link>
@@ -76,11 +85,12 @@ const CabinCrew = () => {
         </div>
       </div>
 
+
       {/* Section: Program Overview */}
       <section className="px-6 py-20 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-Crew-Courses-BANNERS.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"
             alt="Cabin Class"
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />

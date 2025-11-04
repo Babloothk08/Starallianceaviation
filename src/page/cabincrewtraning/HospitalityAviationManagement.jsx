@@ -25,11 +25,11 @@ export default function HospitalityManagement() {
             {/* Hero Section */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/SxbBC9cL/Hospitality-Management-banner.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/hospitalmanagment/Hospitality-Management-banner.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
-                className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
+                className="bg-[#2c3756] text-white flex items-center justify-center p-8  h-[190px] sm:h-[520px] 2xl:h-[700px] relative md:mt-0 mt-[72px]"
             >
                 <div className="absolute inset-0 bg-black/25"></div>
                 <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
@@ -41,7 +41,7 @@ export default function HospitalityManagement() {
                             <Link to="/" className="hover:underline text-blue-300">
                                 Star Alliance Aviation Academy /
                             </Link>{" "}
-                            Hospitality & Aviation Management
+                            {/* Hospitality & Aviation Management */}
                         </h2>
                         <Link
                             to="/make-appointment"
@@ -58,7 +58,7 @@ export default function HospitalityManagement() {
                 <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
                     <div className="w-full lg:w-1/2">
                         <img
-                            src="https://i.postimg.cc/HkJcyGLy/Aviation-Hospitality-Management.webp"
+                            src="https://i.postimg.cc/NFq4HNcD/Hospitality-Management-500-500.jpg"
                             alt="Hospitality Management"
                             className="w-full max-w-md mx-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-300"
                             loading="lazy"

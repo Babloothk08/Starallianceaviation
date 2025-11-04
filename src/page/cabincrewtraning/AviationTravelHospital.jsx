@@ -25,23 +25,23 @@ export default function AviationTravelHospital() {
             {/* Hero Section */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/4xvr5316/Aviation-Hospitality-and-Travel-Management.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Aviation%2C%20Hospitality%20%26%20Travel%20Management%20Course/Aviation-Hospitality-and-Travel-Management.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
-                className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
+                className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[190px] sm:h-[520px] 2xl:h-[700px] relative md:mt-0 mt-[72px]"
             >
                 <div className="absolute inset-0 bg-black/25"></div>
                 <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
                     <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
-                        <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
+                        <h1 className="text-3xl sm:text-3xl font-bold text-white font-heading animate-fade-in-down">
                             Aviation, Hospitality & Travel Management Course
                         </h1>
                         <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
                             <Link to="/" className="hover:underline text-blue-300">
                                 Star Alliance Aviation Academy /
                             </Link>{" "}
-                            Aviation, Hospitality & Travel Management Course
+                            
                         </h2>
                         <Link
                             to="/make-appointment"
@@ -58,7 +58,7 @@ export default function AviationTravelHospital() {
                 <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
                     <div className="w-full lg:w-1/2">
                         <img
-                            src="https://i.postimg.cc/HkJcyGLy/Aviation-Hospitality-Management.webp"
+                            src="https://i.postimg.cc/xCb58wW6/Aviation-Hospitality-and-Travel-Management-500-500.jpg"
                             alt="Aviation Hospitality Travel Management"
                             className="w-full max-w-md mx-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-300"
                             loading="lazy"

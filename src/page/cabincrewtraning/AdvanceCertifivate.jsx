@@ -28,23 +28,23 @@ export default function CertificateHospitality() {
             {/* ===== Hero Section ===== */}
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/AdvanceCertificate20%in20%Aviation20%&20%Hos20%pitality20%Management/Advance-Certificate-Course-BANNERS.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Advance%20Certificate%20in%20Aviation%20%26%20Hospitality%20Management/Advance-Certificate-Course-BANNERS.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
-                className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
+                className="bg-[#2c3756] text-white flex items-center justify-center p-8  h-[190px] sm:h-[520px] 2xl:h-[700px] relative md:mt-0 mt-[72px]"
             >
                 <div className="absolute inset-0 bg-black/25"></div>
                 <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-                    <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
-                        <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
+                    <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-xl">
+                        <h1 className="text-3xl sm:text-3xl font-bold text-white font-heading animate-fade-in-down">
                             Advance Certificate in Aviation & Hospitality Management
                         </h1>
                         <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
                             <Link to="/" className="hover:underline text-blue-300">
                                 Star Alliance Aviation Academy /
                             </Link>{" "}
-                            Advance Certificate in Aviation & Hospitality Management
+                            {/* Advance Certificate in Aviation & Hospitality Management */}
                         </h2>
                         <Link
                             to="/make-appointment"
@@ -61,7 +61,7 @@ export default function CertificateHospitality() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
                     <div className="lg:w-1/2 flex justify-center">
                         <img
-                            src="https://i.postimg.cc/HkJcyGLy/Aviation-Hospitality-Management.webp"
+                            src="https://i.postimg.cc/yx4PZfHv/Advance-Certificate-Course-500-500.jpg"
                             alt="Hospitality Training"
                             loading="lazy"
                             className="rounded-2xl shadow-lg w-[80%] object-cover"
