@@ -28,7 +28,7 @@ export default function CertificateHospitality() {
             {/* ===== Hero Section ===== */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/AdvanceCertificate20%in20%Aviation20%&20%Hos20%pitality20%Management/Advance-Certificate-Course-BANNERS.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

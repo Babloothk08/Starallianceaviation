@@ -25,7 +25,7 @@ export default function AviationTravelHospital() {
             {/* Hero Section */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/4xvr5316/Aviation-Hospitality-and-Travel-Management.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

@@ -28,7 +28,7 @@ export default function HospitalityTravelCustomerService() {
             {/* ===== HERO SECTION ===== */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/QdgRbMqg/Hospitality-Travel-Customer-Service-banner.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

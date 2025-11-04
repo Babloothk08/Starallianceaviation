@@ -80,7 +80,7 @@ const CabinCrew = () => {
       <section className="px-6 py-20 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-Crew-Courses-BANNERS.jpg"
             alt="Cabin Class"
             className="rounded-2xl shadow-2xl border-4 border-blue-100"
           />
@@ -143,7 +143,7 @@ const CabinCrew = () => {
       </section> */}
 
       {/* Section: Job-Oriented Training */}
-      <section className="px-6 py-20 max-w-6xl mx-auto">
+      {/* <section className="px-6 py-20 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/3.jpg"
@@ -167,7 +167,7 @@ const CabinCrew = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Course Highlights */}
       <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
