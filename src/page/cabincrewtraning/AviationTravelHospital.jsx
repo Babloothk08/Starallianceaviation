@@ -25,7 +25,7 @@ export default function AviationTravelHospital() {
             {/* Hero Section */}
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Aviation%2C%20Hospitality%20%26%20Travel%20Management%20Course/Aviation-Hospitality-and-Travel-Management.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Aviation%2C%20Hospitality%20%26%20Travel%20Management%20Course/Aviation%2C%20Hospitality%20and%20Travel%20Management1.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

@@ -25,7 +25,7 @@ export default function HospitalityManagement() {
             {/* Hero Section */}
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/hospitalmanagment/Hospitality-Management-banner.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/hospitalmanagment/Hospitality%20Management%20banner1.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

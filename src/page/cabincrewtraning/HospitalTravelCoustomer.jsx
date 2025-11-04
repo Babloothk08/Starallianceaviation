@@ -28,7 +28,7 @@ export default function HospitalityTravelCustomerService() {
             {/* ===== HERO SECTION ===== */}
             <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Hospitality%2C%20Travel%20%26%20Customer%20Service%20Course%20in%20India/Hospitality-Travel-Customer-Service-banner.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Hospitality%2C%20Travel%20%26%20Customer%20Service%20Course%20in%20India/Hospitality%2C%20Travel%20%26%20Customer%20Service%20banner1.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}

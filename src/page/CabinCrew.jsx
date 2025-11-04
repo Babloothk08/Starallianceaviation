@@ -59,7 +59,7 @@ const CabinCrew = () => {
         // }}
         style={{
           backgroundImage:
-            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-Crew-Courses-BANNERS1.jpg')",
+            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin%20Crew%20Courses%20BANNERS1.jpg')",
         }}
       >
         {/* Overlay */}
