@@ -115,7 +115,7 @@ const Footer = () => {
             </li>
             <li>
               <NavLink to="/cabin-crew-training" className="hover:text-white">
-                Cabin Crew Training
+                Cabin Crew Courses 
               </NavLink>
             </li>
           </ul>

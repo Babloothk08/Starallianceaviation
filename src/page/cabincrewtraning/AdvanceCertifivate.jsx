@@ -38,7 +38,8 @@ export default function CertificateHospitality() {
                 <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
                     <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-xl">
                         <h1 className="text-3xl sm:text-3xl font-bold text-white font-heading animate-fade-in-down">
-                            Advance Certificate in Aviation & Hospitality Management
+                            Advance Certificate Course in Aviation, Hospitality, Travel, Customer Service and Airport Ground Services
+
                         </h1>
                         <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
                             <Link to="/" className="hover:underline text-blue-300">
@@ -74,14 +75,13 @@ export default function CertificateHospitality() {
                         </h2>
                         <p className="leading-relaxed text-justify">
                             The Advanced Aviation Training & Airport Ground Handling Program is one of Star Alliance Aviation Academy's most inclusive aviation career courses.
-                            The 6-month fast-tracked program is for 12th-grade graduate students who are ready to join the aviation workforce. It provides advanced training in areas such as airport ground handling, marshalling, airside operations, flight coordination, and the passenger management system.
 
+                        </p>
+                        <p className="leading-relaxed text-justify">
+                            The 6-month fast-tracked program is for 12th-grade graduate students who are ready to join the aviation workforce. It provides advanced training in areas such as airport ground handling, marshalling, airside operations, flight coordination, and the passenger management system.
                         </p>
                         <p className="leading-relaxed text-justify">
                             Students gain a thorough understanding of aviation safety procedures, service delivery standards, and communication protocols through extensive simulation, analysis of case studies, and trainer-led workshops. The course provides each candidate with the necessary institutional knowledge as well as the professional discipline and confidence expected by airline professionals around the world.
-
-                        </p>
-                        <p className="leading-relaxed text-justify">
                             Graduates will be fully prepared to take on roles such as ground operations executive, flight dispatch assistant, and aviation service coordinator with stations and operations with major airlines and aviation service providers throughout India and the world.
 
                         </p>
@@ -114,7 +114,7 @@ export default function CertificateHospitality() {
 
             {/* ===== Course Info ===== */}
             <section className="py-16 px-4">
-                <div className="max-w-6xl mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-8 text-center">
+                <div className="max-w-6xl mx-auto grid md:grid-cols-4 sm:grid-cols-2 gap-8 text-center">
                     <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
                         <h3 className="text-primary font-bold text-xl mb-2">Duration</h3>
                         <p>6 Months</p>
@@ -125,7 +125,11 @@ export default function CertificateHospitality() {
                     </div>
                     <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
                         <h3 className="text-primary font-bold text-xl mb-2">Eligibility</h3>
-                        <p>12th Pass | Age Limit: 17–24 Years</p>
+                        <p>12th Pass </p>
+                    </div>
+                    <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
+                        <h3 className="text-primary font-bold text-xl mb-2">Age Limit</h3>
+                        <p>17–24 Years</p>
                     </div>
                 </div>
             </section>

@@ -10,7 +10,7 @@ export default function HospitalityTravelCustomerService() {
     return (
         <div className="font-sans text-gray-700">
             {/* ===== SEO META TAGS ===== */}
-            <Helmet>
+            {/* <Helmet>
                 <title>
                     Certificate Course in Hospitality, Travel & Customer Service | Star
                     Alliance Aviation Academy
@@ -23,7 +23,7 @@ export default function HospitalityTravelCustomerService() {
                     rel="canonical"
                     href="https://www.starallianceaviation.com/hospitality-travel-customer-service"
                 />
-            </Helmet>
+            </Helmet> */}
 
             {/* ===== HERO SECTION ===== */}
             <section
@@ -38,7 +38,7 @@ export default function HospitalityTravelCustomerService() {
                 <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
                     <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
                         <h1 className="text-3xl sm:text-3xl font-bold text-white font-heading animate-fade-in-down">
-                            Hospitality, Travel & Customer <br /> Service Course in India
+                            Certificate Course in Hospitality, Travel & Customer Service
                         </h1>
                         <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
                             <Link to="/" className="hover:underline text-blue-300">
@@ -73,29 +73,18 @@ export default function HospitalityTravelCustomerService() {
                             Course Overview
                         </h2>
                         <p className="leading-relaxed text-justify">
-                            The <b>Aviation Customer Service & Ground Operations Course</b> at
-                            Star Alliance Aviation Academy provides students with practical
-                            experience in the frontline functions of aviation management. The
-                            course emphasizes airport terminal operations, passenger and
-                            baggage handling, flight check-in, and in-flight support systems.
+                            The Aviation Customer Service & Ground Operations Course at Star Alliance Aviation Academy offers students practical experiences in the frontline functions of aviation management. The emphasis of this course is on airport terminal operations, passenger handling, baggage handling, flight check-in, and in-flight support systems.
+
                         </p>
                         <p className="leading-relaxed text-justify">
-                            Students learn directly from aviation professionals, gaining
-                            real-world knowledge and operational discipline consistent with
-                            airline standards. Through interactive and practical training,
-                            they develop skills in airline communication systems, safety
-                            procedures, and emergency coordination.
+                            Students engage with real-time industry experience brought into the classroom by aviation professionals. This ensures all students develop an operational mindset that is consistent with airline standards. Through active and practical engagement, students become proficient in airline communication systems, safety regulations and procedures, and emergency coordination.
                         </p>
                         <p className="leading-relaxed text-justify">
-                            The academy’s reputation for excellence is built on producing
-                            skilled professionals who understand precision, customer service,
-                            and safety — key values in the aviation industry.
+                            The reputation that Star Alliance Aviation Academy has developed is based on its delivery of highly skilled professionals, who appreciate the value of precision, customer avenues, and above all, safety in aviation.
                         </p>
                         <p className="leading-relaxed text-justify">
-                            Graduates are job-ready for roles such as{" "}
-                            <b>Airline Customer Service Executive, Airport Ground Staff,</b>{" "}
-                            and <b>Passenger Relations Officer</b> — confident, competent, and
-                            ready to excel globally.
+                            Students completing this program will be seemingly job-ready for positions such as airline customer service executive, airport ground staff, and passenger relations officer. Ultimately, students leave with confidence and competencies.
+
                         </p>
                     </div>
                 </div>
@@ -104,18 +93,16 @@ export default function HospitalityTravelCustomerService() {
             {/* ===== MODULES COVERED ===== */}
             <section className="py-16 px-4 bg-gray-50 border-b">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-3xl font-bold text-primary mb-6">
-                        Modules Covered
-                    </h2>
+                    <h2 className="text-3xl font-bold text-primary mb-6">Modules Covered</h2>
 
                     <ul className="list-disc space-y-3 pl-6">
                         {[
-                            "Overview of the Hospitality Industry — Familiarity, structure, and scope of the hospitality industry.",
-                            "Food and Beverage Management — Service skills, menu design, and guest satisfaction.",
-                            "Front Office and Housekeeping Operations — Reservation systems, check-in/check-out, and cleaning standards.",
-                            "Grooming and Personality Development — Enhance appearance, communication, and confidence.",
-                            "Customer Service Training — Handling guest inquiries and providing premium service.",
-                            "Professional Development and Internship — Practical experience and placement assistance.",
+                            "Overview of the Hospitality Industry—Familiarity, structure, and scope of the hospitality industry.",
+                            "Food and Beverage Management—service skills, menu design, and guest satisfaction.",
+                            "Front Office and Housekeeping Operations—Reservation systems, check-in and check-out, and cleaning standards and procedures.",
+                            "Grooming and Personality Development—Improved appearance, communication, and confidence.",
+                            "Customer Service Training—Answering guest questions and providing five-star service.",
+                            "Professional Development and Internship—Experience and placement support.",
                         ].map((item, i) => (
                             <li key={i}>{item}</li>
                         ))}
@@ -125,7 +112,7 @@ export default function HospitalityTravelCustomerService() {
 
             {/* ===== COURSE INFO ===== */}
             <section className="py-16 px-4">
-                <div className="max-w-6xl mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-8 text-center">
+                <div className="max-w-6xl mx-auto grid md:grid-cols-4 sm:grid-cols-2 gap-8 text-center">
                     <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
                         <h3 className="text-primary font-bold text-xl mb-2">Duration</h3>
                         <p>11 Months</p>
@@ -136,7 +123,11 @@ export default function HospitalityTravelCustomerService() {
                     </div>
                     <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
                         <h3 className="text-primary font-bold text-xl mb-2">Eligibility</h3>
-                        <p>12th Pass | Age Limit: 17–24 Years</p>
+                        <p>12th Pass</p>
+                    </div>
+                    <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
+                        <h3 className="text-primary font-bold text-xl mb-2">Age Limit</h3>
+                        <p>17–24 Years</p>
                     </div>
                 </div>
             </section>
