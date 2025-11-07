@@ -8,11 +8,11 @@ export default function TRIncludingEndorsement() {
   });
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <title>TR Including Endorsement | Star Alliance Aviation.</title>
         <meta name="description" content="Star Alliance Aviation offers type rating and CPL endorsement courses with international standards. Train on Airbus & Boeing aircraft with experts." />
-        <link rel="canonical"href="https://www.starallianceaviation.com/tr-including-endorsement/"/>
-      </Helmet> */}
+        <link rel="canonical"href="https://www.starallianceaviation.com/tr-including-endorsement"/>
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/tr/TR-INCLUDING-endorsementbanner.jpg)`,

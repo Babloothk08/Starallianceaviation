@@ -17,11 +17,11 @@ const ServiceDetail = () => {
 
   return (
     <>
-      {/* <Helmet>
+      <Helmet>
         <title>{service.metatitle}</title>
         <meta name="description" content={service.metadescription} />
         <link rel="canonical" href={service.canonical} />
-      </Helmet> */}
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(${service.coverImag})`,

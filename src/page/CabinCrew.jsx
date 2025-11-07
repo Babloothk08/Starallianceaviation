@@ -9,138 +9,52 @@ const CabinCrew = () => {
 
   return (
     <div className="bg-white text-gray-800 font-sans">
-      {/* <Helmet>
-        <title>Cabin Crew Training in Delhi | Star Alliance Aviation Academy</title>
-        <meta name="description" content="Cabin Crew Training Delhi, Airline Cabin Crew Course, Customer Service, In‑Flight Safety, Cabin Crew Academy India, Aviation Hospitality Training" />
-        <link rel="canonical" href="https://www.starallianceaviation.com/cabin-crew-training/" />
+
+      <Helmet>
+        <title>
+          Cabin Crew Course in Delhi | Star Alliance Aviation Academy
+        </title>
+        <meta
+          name="description"
+          content="Join India’s leading cabin crew course in Delhi—Star Alliance Aviation. Learn aviation hospitality, grooming, and airline interview skills with expert mentors."
+        />
+        <link
+          rel="canonical"
+          href="https://www.starallianceaviation.com/cabin-crew-training"
+        />
+
         <script type="application/ld+json">
-          {`
-    {
-      "@context": "https://schema.org",
-      "@type": "Course",
-      "name": "Cabin Crew Training Program ‒ Star Alliance Aviation Academy",
-      "description": "Comprehensive cabin crew training covering safety procedures, in-flight service, grooming, customer handling, and aviation regulations by Star Alliance Aviation Academy in New Delhi.",
-      "url": "https://www.starallianceaviation.com/cabin-crew-training/",
-      "provider": {
-        "@type": "EducationalOrganization",
-        "name": "Star Alliance Aviation Academy",
-        "url": "https://starallianceaviation.com",
-        "logo": "https://www.starallianceaviation.com/logo.png"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "49999",
-        "priceCurrency": "INR",
-        "url": "https://www.starallianceaviation.com/enroll-cabin-crew-training",
-        "availability": "https://schema.org/InStock"
-      },
-      "inLanguage": "English",
-      "audience": {
-        "@type": "Audience",
-        "audienceType": "Aspirants of cabin crew career"
-      },
-      "timeRequired": "P4W"
-    }
-    `}
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            name: "Cabin Crew Training Program ‒ Star Alliance Aviation Academy",
+            description:
+              "Comprehensive cabin crew training covering safety procedures, in-flight service, grooming, customer handling, and aviation regulations by Star Alliance Aviation Academy in New Delhi.",
+            url: "https://www.starallianceaviation.com/cabin-crew-training",
+            provider: {
+              "@type": "EducationalOrganization",
+              name: "Star Alliance Aviation Academy",
+              url: "https://www.starallianceaviation.com",
+              logo: "https://i.postimg.cc/FKqwPS2B/white-logo-1.png",
+            },
+            offers: {
+              "@type": "Offer",
+              price: "Request Quote",
+              priceCurrency: "INR",
+              url: "https://www.starallianceaviation.com/cabin-crew-training",
+              availability: "https://schema.org/InStock",
+            },
+            inLanguage: "English",
+            audience: {
+              "@type": "Audience",
+              audienceType: "Aspiring Cabin Crew Students",
+            },
+            timeRequired: "P4W",
+            educationalCredentialAwarded: "Certificate of Completion",
+          })}
         </script>
+      </Helmet>
 
-
-      </Helmet> */}
-      {/* Hero Section */}
-      <div
-        className=" bg-cover bg-center text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
-        style={{
-          backgroundImage:
-            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-crew-training-banner.jpg')",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/25"></div>
-        <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-          <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
-            <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
-              Cabin Crew Training
-            </h1>
-            <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
-              <Link to="/" className="hover:underline text-blue-300">
-                Star Alliance Aviation Academy /
-              </Link>{" "}
-              Cabin Crew Training
-            </h2>
-            <Link
-              to="/make-appointment"
-              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 transition"
-            >
-              Make an Appointment
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Section: Program Overview */}
-      <section className="px-6 py-20 max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <img
-            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"
-            alt="Cabin Class"
-            className="rounded-2xl shadow-2xl border-4 border-blue-100"
-          />
-          <div>
-            <h2 className="text-4xl font-bold mb-5 text-primary font-heading">
-              Why Choose Our Cabin Crew Training?
-            </h2>
-            <p className="mb-6 text-lg font-sans">
-              Our team of experts has extensive experience & knowledge in the
-              field and is known to be one of India's leading aviation training
-              institutes, where you will gain an exceptional and practical
-              exposure unlike anything you have ever learned (period).
-              World-class training modules designed by industry experts and
-              ex-aviation professionals from leading airlines are accepted
-              across the globe. Our program focuses on:
-            </p>
-            <ul className="list-disc ml-6 space-y-3 text-gray-700 text-base font-sans">
-              <li>In-flight Safety Procedures</li>
-              <li>Grooming and Personality Development</li>
-              <li>Customer Service Excellence</li>
-              <li>Communication & Language Training</li>
-              <li>Emergency Situations & First Aid</li>
-              {/* <li>Mock Drills and Simulations</li> */}
-            </ul>
-            <p className="mt-6 font-sans">
-              Mode of Recognition: We make sure that our students are job-ready
-              and well-prepared in all the dimensions, from an airline interview
-              to practical experience in the skies.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Section: Counseling */}
-      {/* <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-4xl font-bold mb-5 text-primary">
-              Counselling for Reappearance
-            </h2>
-            <p className="text-gray-700 text-lg">
-              From managing stress to setting realistic goals, our counselling
-              sessions offer vital support for aspiring aviators to enhance
-              their mental well-being and performance during training and
-              beyond.
-            </p>
-            <Link
-              to="/counselling-for-reappearance"
-              className="inline-block mt-6 text-Secondary font-semibold underline hover:text-Lightcolor transition"
-            >
-              Read More
-            </Link>
-          </div>
-          <img
-            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/2.jpg"
-            alt="Counselling"
-            className="rounded-2xl shadow-2xl border-4 border-blue-100"
-          />
-        </div>
-      </section> */}
 
       {/* Section: Job-Oriented Training */}
       <section className="px-6 py-20 max-w-6xl mx-auto">

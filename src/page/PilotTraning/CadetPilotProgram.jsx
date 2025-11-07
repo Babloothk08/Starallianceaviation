@@ -8,11 +8,11 @@ export default function CadetPilotProgram() {
   });
   return (
     <div>
-      {/* <Helmet>
-        <title>Star Alliance – Cadet Pilot Program for Aspiring Pilots.</title>
-        <meta name="description" content="Join India’s top Cadet Pilot Program at Star Alliance Aviation. Industry-aligned training, professional grooming, and career-ready pilot preparation." />
-        <link rel="canonical" href="https://www.starallianceaviation.com/cadet-pilot-program/" />
-      </Helmet> */}
+      <Helmet>
+        <title>cadet pilot training in india | Star Alliance Aviation Academy</title>
+        <meta name="description" content="We are the leading cadet pilot training institute in Delhi, India. Industry-aligned training, professional grooming, and career-ready pilot preparation." />
+        <link rel="canonical" href="https://www.starallianceaviation.com/cadet-pilot-program" />
+      </Helmet>
       {/* Hero Section */}
       <section
         style={{

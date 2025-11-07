@@ -8,11 +8,11 @@ export default function FLCRecencyFlying() {
   });
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <title>Flight Recency Training for Pilots – Star Alliance Aviation.</title>
         <meta name="description" content="Complete your DGCA FLC Recency Flying at Star Alliance Aviation Academy. Affordable, reliable pilot recency flight training with expert supervision." />
-        <link rel="canonical" href="https://www.starallianceaviation.com/flc-recency-flying/" />
-      </Helmet> */}
+        <link rel="canonical" href="https://www.starallianceaviation.com/flc-recency-flying" />
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/flc/FLCbanner.jpg)`,

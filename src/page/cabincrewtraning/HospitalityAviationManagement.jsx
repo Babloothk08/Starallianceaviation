@@ -9,19 +9,11 @@ export default function HospitalityManagement() {
 
     return (
         <div className="font-sans text-gray-800">
-            {/* SEO Meta */}
-            {/* <Helmet>
-        <title>Certificate Course in Hospitality Management | Star Alliance Aviation Academy</title>
-        <meta
-          name="description"
-          content="Enroll in our Certificate Course in Hospitality Management and gain expertise in front-office, customer service, F&B operations, and aviation hospitality."
-        />
-        <link
-          rel="canonical"
-          href="https://www.starallianceaviation.com/hospitality-management"
-        />
-      </Helmet> */}
-
+            <Helmet>
+                <title>Aviation, Hospitality & Travel Management Course</title>
+                <meta name="description" content="Enroll in Star Alliance Aviation Academy’s 11-month course in Aviation, Hospitality & Travel Management. Build a global career in airlines, hotels & tourism." />
+                <link rel="canonical" href="https://www.starallianceaviation.com/cabin-crew-training" />
+            </Helmet>
             {/* Hero Section */}
             <section
                 style={{

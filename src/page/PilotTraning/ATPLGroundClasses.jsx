@@ -8,11 +8,11 @@ export default function ATPLGroundClasses() {
   });
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <title>Airline Pilot Ground Training | Star Alliance Aviation.</title>
         <meta name="description" content="Star Alliance Aviation offers comprehensive ATPL ground training in India. Master advanced aviation subjects with guidance from industry veterans." />
-        <link rel="canonical" href="https://www.starallianceaviation.com/atpl-ground-classes/" />
-      </Helmet> */}
+        <link rel="canonical" href="https://www.starallianceaviation.com/atpl-ground-classes" />
+      </Helmet>
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/pilot%20traning/Atl/ATPL-Ground-Classesbanner.jpg)`,

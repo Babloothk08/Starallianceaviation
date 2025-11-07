@@ -9,11 +9,11 @@ const TermsAndConditions = () => {
   });
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6 pt-32">
-      {/* <Helmet>
+      <Helmet>
         <title>Terms & Conditions – Star Alliance Aviation Academy</title>
         <meta name="description" content="Read the Terms & Conditions of Star Alliance Aviation. Here we outline user obligations, disclaimers, and the legal terms of using our aviation training services." />
         <link rel="canonical" href="https://www.starallianceaviation.com/terms-and-condition" />
-      </Helmet> */}
+      </Helmet>
       <div className="max-w-6xl mx-auto bg-white shadow-xl rounded-2xl p-10 relative overflow-hidden">
         {/* Background accents */}
         <div className="absolute -top-10 -left-10 w-40 h-40 bg-indigo-200 rounded-full mix-blend-multiply blur-3xl opacity-30 animate-pulse"></div>

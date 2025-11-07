@@ -10,17 +10,17 @@ export default function AviationTravelHospital() {
     return (
         <div className="font-sans text-gray-800">
             {/* SEO */}
-            {/* <Helmet>
-        <title>Certificate Course in Aviation, Hospitality and Travel Management | Star Alliance Aviation Academy</title>
-        <meta
-          name="description"
-          content="Learn aviation operations, hospitality management, and travel coordination with our comprehensive 11-month course at Star Alliance Aviation Academy."
-        />
-        <link
-          rel="canonical"
-          href="https://www.starallianceaviation.com/aviation-hospitality-travel-management"
-        />
-      </Helmet> */}
+            <Helmet>
+                <title>Hospitality & Aviation Pilot Course | Star Alliance Aviation.</title>
+                <meta
+                    name="description"
+                    content="Build a successful career in aviation pilot course management and hospitality with Star Alliance Aviation’s Academy professional training and job placement support."
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.starallianceaviation.com/hospitality-aviation-mangement"
+                />
+            </Helmet>
 
             {/* Hero Section */}
             <section

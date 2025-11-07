@@ -16,60 +16,11 @@ const ServicesAndExpertise = () => {
   });
   return (
     <>
-      {/* <Helmet>
-        <title>Expert Aviation Solutions & Career Services | Star Alliance.</title>
-        <meta name="description" content="Discover expert aviation training, medical assistance, counselling, and job support services offered by Star Alliance Aviation for aspiring professionals." />
-        <link rel="canonical" href="https://www.starallianceaviation.com/services-expertise/" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "https://schema.org",
-          "@type": "WebPage",
-          "url": "https://www.starallianceaviation.com/services-expertise",
-          "name": "Services & Expertise – Star Alliance Aviation Academy",
-          "description": "Explore the specialized services and expertise offered by Star Alliance Aviation Academy, including pilot training, cabin crew development, aviation management courses, and regulatory liaison services.",
-          "mainEntity": {
-            "@type": "Service",
-          "serviceType": "Aviation Training and Consultancy",
-          "provider": {
-            "@type": "Organization",
-          "name": "Star Alliance Aviation Academy",
-          "url": "https://starallianceaviation.com",
-          "logo": "https://www.starallianceaviation.com/logo.png",
-          "sameAs": [
-          "https://www.facebook.com/starallianceaviationacademy/",
-          "https://www.instagram.com/starallianceaviation/?hl=en",
-          "https://www.youtube.com/@starallianceaviationacademy",
-          "https://www.linkedin.com/company/starallianceaviationacademy/",
-          "https://in.pinterest.com/starallianceaviationacademy/",
-          "https://x.com/staralliance_in"
-          ]
-    },
-          "areaServed": "IN",
-          "description": "Star Alliance Aviation Academy offers comprehensive aviation training and consultancy services, including pilot training, cabin crew development, aviation management courses, and regulatory liaison services."
-  },
-          "breadcrumb": {
-            "@type": "BreadcrumbList",
-          "itemListElement": [
-          {
-            "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.starallianceaviation.com/"
-      },
-          {
-            "@type": "ListItem",
-          "position": 2,
-          "name": "Services & Expertise",
-          "item": "https://www.starallianceaviation.com/services-expertise"
-      }
-          ]
-  }
-}`}
-        </script>
-
-
-
-      </Helmet> */}
+     <Helmet>
+        <title>Aviation Services & Expertise | Best flying school in india.</title>
+        <meta name="description" content="Discover Star Alliance Aviation’s expert aviation services—DGCA training, pilot courses, and professional guidance for aspiring flying school in india." />
+        <link rel="canonical" href="https://www.starallianceaviation.com/services-expertise" />
+      </Helmet>
       {/* Hero Section */}
       <section
         style={{

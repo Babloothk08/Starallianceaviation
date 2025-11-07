@@ -37,11 +37,11 @@ export default function MakeAppointment() {
   return (
     <>
       {/* Hero Section */}
-      {/* <Helmet>
+      <Helmet>
         <title>Book an Appointment | Star Alliance Aviation</title>
-        <meta name="description" content="Book your consultation with Star Alliance Aviation today. Secure expert guidance, career counselling, or training support at your convenience." />
-        <link rel="canonical" href="https://www.starallianceaviation.com/make-appointment/" />
-      </Helmet> */}
+        <meta name="description" content="BBook your consultation with Star Alliance Aviation today. Secure expert guidance, career counselling, or training support at your convenience." />
+        <link rel="canonical" href="https://www.starallianceaviation.com/make-appointment" />
+      </Helmet>
       <div
         className="flex items-center justify-center min-h-screen  px-4 py-12 bg-neutral-700  relative bg-fixed bg-center bg-cover"
         style={{

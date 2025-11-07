@@ -10,20 +10,19 @@ export default function CertificateHospitality() {
     return (
         <div className="font-sans text-gray-700">
             {/* SEO Meta Tags */}
-            {/* <Helmet>
+            <Helmet>
                 <title>
-                    Certificate Course in Hospitality, Travel & Customer Service | Star
-                    Alliance Aviation Academy
+                    Advance Certificate in Aviation & Hospitality Management
                 </title>
                 <meta
                     name="description"
-                    content="Gain practical training in airport terminal operations, passenger handling, and customer service with the Certificate Course in Hospitality, Travel & Customer Service at Star Alliance Aviation Academy."
+                    content="Advance your career with Star Alliance’s 6-month certificate in Aviation, Hospitality, Travel & Ground Services. Practical learning for global opportunities."
                 />
                 <link
                     rel="canonical"
-                    href="https://www.starallianceaviation.com/certificate-hospitality-travel-customer-service"
+                    href="https://www.starallianceaviation.com/advance-certificate-course"
                 />
-            </Helmet> */}
+            </Helmet>
 
             {/* ===== Hero Section ===== */}
             <section

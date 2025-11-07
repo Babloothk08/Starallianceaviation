@@ -12,12 +12,11 @@ export default function HospitalityTravelCustomerService() {
             {/* ===== SEO META TAGS ===== */}
             <Helmet>
                 <title>
-                    Certificate Course in Hospitality, Travel & Customer Service | Star
-                    Alliance Aviation Academy
+                    Hospitality, Travel & Customer Service Course in India
                 </title>
                 <meta
                     name="description"
-                    content="Gain hands-on training in airport terminal operations, customer service, and hospitality management through the Certificate Course in Hospitality, Travel & Customer Service at Star Alliance Aviation Academy."
+                    content="Master hospitality, travel & customer service skills at Star Alliance Aviation Academy. Join our 11-month program and start your international career journey."
                 />
                 <link
                     rel="canonical"

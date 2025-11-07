@@ -65,87 +65,114 @@ const PilotTraining = () => {
   });
   return (
     <>
-      {/* <Helmet>
-        <title>Best pilot Training | Star Alliance Aviation Academy</title>
-        <meta name="description" content="Experience world-class aviation training at Star Alliance Aviation. Training delivers advanced skills and industry readiness for aspiring pilots and cabin crew. a" />
-        <link rel="canonical" href="https://www.starallianceaviation.com/pilot-training/" />
+      <Helmet>
+        <title>
+          Best Pilot Training | Star Alliance Aviation Academy
+        </title>
+        <meta
+          name="description"
+          content="Join Star Alliance Aviation Academy, the leading DGCA-approved pilot training institute in Delhi. Learn CPL, ATPL, and CPP courses from certified airline professionals."
+        />
+        <link
+          rel="canonical"
+          href="https://www.starallianceaviation.com/pilot-training"
+        />
 
         <script type="application/ld+json">
-          {`
-          {
+          {JSON.stringify({
             "@context": "https://schema.org",
-          "@type": "CourseCatalog",
-          "name": "Pilot Training Courses - Star Alliance Aviation Academy",
-          "description": "Explore our complete range of pilot training programs including CPL Ground Classes, ATPL, Cadet Pilot Program, RTR, and more at Star Alliance Aviation Academy in New Delhi.",
-          "url": "https://www.starallianceaviation.com/pilot-training",
-          "provider": {
-            "@type": "EducationalOrganization",
-          "name": "Star Alliance Aviation Academy",
-          "url": "https://starallianceaviation.com",
-          "logo": "https://www.starallianceaviation.com/logo.png"
-  },
-          "hasCourse": [
-          {
-            "@type": "Course",
-          "name": "CPL Ground Classes",
-          "description": "Comprehensive theoretical training for Commercial Pilot License, covering navigation, meteorology, air regulation, and technical subjects.",
-          "url": "https://www.starallianceaviation.com/pilot-training#cpl"
-    },
-          {
-            "@type": "Course",
-          "name": "ATPL Ground Classes",
-          "description": "Advanced training for Airline Transport Pilot License, focusing on airline-level aviation knowledge and DGCA compliance.",
-          "url": "https://www.starallianceaviation.com/pilot-training#atpl"
-    },
-          {
-            "@type": "Course",
-          "name": "ATPL Oral / Viva",
-          "description": "Interview and oral exam preparation sessions for ATPL certification.",
-          "url": "https://www.starallianceaviation.com/pilot-training#oral"
-    },
-          {
-            "@type": "Course",
-          "name": "RTR (Radio Telephony Restricted)",
-          "description": "DGCA-approved training to prepare for the RTR (Aero) license examination.",
-          "url": "https://www.starallianceaviation.com/pilot-training#rtr"
-    },
-          {
-            "@type": "Course",
-          "name": "Cadet Pilot Program",
-          "description": "Full cadet pilot pathway including ground school, flying hours, airline prep, and career guidance.",
-          "url": "https://www.starallianceaviation.com/pilot-training#cadet"
-    },
-          {
-            "@type": "Course",
-          "name": "Airlines Preparation Course",
-          "description": "Mock interviews, aptitude tests, group discussions, and simulator prep to help pilots qualify for airline selection.",
-          "url": "https://www.starallianceaviation.com/airlines-preparation-course"
-    },
-          {
-            "@type": "Course",
-          "name": "FLC & Recency Flying",
-          "description": "Flying License Conversion and recency flying programs to help maintain DGCA-approved flight readiness.",
-          "url": "https://www.starallianceaviation.com/pilot-training#flc"
-    },
-          {
-            "@type": "Course",
-          "name": "Type Rating & Endorsement",
-          "description": "Aircraft-specific type rating training including endorsement as per industry standards.",
-          "url": "https://www.starallianceaviation.com/pilot-training#typerating"
-    },
-          {
-            "@type": "Course",
-          "name": "Class 1 & Class 2 Medicals",
-          "description": "DGCA-compliant medical exams to determine fitness for aviation training and flying.",
-          "url": "https://www.starallianceaviation.com/pilot-training#medical"
-    }
-          ]
-}`}
+            "@type": "CourseCatalog",
+            "@id": "https://www.starallianceaviation.com/pilot-training",
+            name: "Pilot Training Courses - Star Alliance Aviation Academy",
+            description:
+              "Explore our complete range of pilot training programs, including CPL Ground Classes, ATPL, Cadet Pilot Program, RTR, and more at Star Alliance Aviation Academy in New Delhi.",
+            url: "https://www.starallianceaviation.com/pilot-training",
+            provider: {
+              "@type": "EducationalOrganization",
+              name: "Star Alliance Aviation Academy",
+              url: "https://www.starallianceaviation.com",
+              logo: "https://i.postimg.cc/FKqwPS2B/white-logo-1.png",
+            },
+            hasCourse: [
+              {
+                "@type": "Course",
+                name: "CPL Ground Classes",
+                description:
+                  "Comprehensive theoretical training for Commercial Pilot License, covering navigation, meteorology, air regulation, and technical subjects. Ideal for students preparing for DGCA examinations in India.",
+                url: "https://www.starallianceaviation.com/cpl-ground-classes",
+                inLanguage: "English",
+                educationalCredentialAwarded:
+                  "DGCA CPL Ground School Certification",
+              },
+              {
+                "@type": "Course",
+                name: "ATPL Ground Classes",
+                description:
+                  "Advanced training for Airline Transport Pilot License, focusing on airline-level aviation knowledge and DGCA compliance.",
+                url: "https://www.starallianceaviation.com/atpl-ground-classes",
+                inLanguage: "English",
+              },
+              {
+                "@type": "Course",
+                name: "ATPL Oral / Viva",
+                description:
+                  "Interview and oral exam preparation sessions for ATPL certification.",
+                url: "https://www.starallianceaviation.com/atpl-oral-viva",
+                inLanguage: "English",
+              },
+              {
+                "@type": "Course",
+                name: "RTR (Radio Telephony Restricted)",
+                description:
+                  "DGCA-approved training to prepare for the RTR (Aero) license examination.",
+                url: "https://www.starallianceaviation.com/rtr-radio-telephony-restricted",
+                inLanguage: "English",
+              },
+              {
+                "@type": "Course",
+                name: "Cadet Pilot Program",
+                description:
+                  "Full cadet pilot pathway including ground school, flying hours, airline prep, and career guidance.",
+                url: "https://www.starallianceaviation.com/cadet-pilot-program",
+                inLanguage: "English",
+              },
+              {
+                "@type": "Course",
+                name: "Airlines Preparation Course",
+                description:
+                  "Mock interviews, aptitude tests, group discussions, and simulator prep to help pilots qualify for airline selection.",
+                url: "https://www.starallianceaviation.com/airlines-preparation-course",
+                inLanguage: "English",
+              },
+              {
+                "@type": "Course",
+                name: "FLC & Recency Flying",
+                description:
+                  "Flying License Conversion and recency flying programs to help maintain DGCA-approved flight readiness.",
+                url: "https://www.starallianceaviation.com/flc-recency-flying",
+                inLanguage: "English",
+              },
+              {
+                "@type": "Course",
+                name: "Type Rating & Endorsement",
+                description:
+                  "Aircraft-specific type rating training including endorsement as per industry standards.",
+                url: "https://www.starallianceaviation.com/tr-including-endorsement",
+                inLanguage: "English",
+              },
+              {
+                "@type": "Course",
+                name: "Class 1 & Class 2 Medicals",
+                description:
+                  "DGCA-compliant medical exams to determine fitness for aviation training and flying.",
+                url: "https://www.starallianceaviation.com/class-12-medical",
+                inLanguage: "English",
+              },
+            ],
+          })}
         </script>
+      </Helmet>
 
-
-
-      </Helmet> */}
       {/* Hero Section */}
       <section
         style={{

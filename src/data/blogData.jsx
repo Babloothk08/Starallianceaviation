@@ -83,7 +83,7 @@ export const blogPosts = [
   {
     id: 2,
     metatitle: "Our Cabin Crew Training Program | Star Alliance Aviation",
-    metadescription: "Our Cabin Crew Training Program | Star Alliance Aviation",
+    metadescription: "Discover the essential skills taught in our cabin crew training program, including communication, safety procedures, hospitality, and more. Start your aviation career today",
     canonical: "https://www.starallianceaviation.com/blog/Top-Skills-You-will-Learn-in-Our-Cabin-Crew-Training-Program",
     slug: "Top-Skills-You-will-Learn-in-Our-Cabin-Crew-Training-Program",
     title: "Top Skills You’ll Learn in Our Cabin Crew Training Program",

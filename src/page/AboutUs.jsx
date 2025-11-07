@@ -10,73 +10,85 @@ export default function AboutUs() {
   });
   return (
     <>
-      {/* <Helmet>
-        <title>Star Alliance Aviation | Trusted Aviation Training institute .</title>
-        <meta name="description" content="Star Alliance Aviation Academy: Founded by aviation veterans, committed to top-tier pilot and cabin crew training." />
-        <link rel="canonical" href="https://www.starallianceaviation.com/about-us/" />
+      <Helmet>
+        <title>
+          Star Alliance Aviation | Trusted Aviation Academy Institute
+        </title>
+        <meta
+          name="description"
+          content="Learn about Star Alliance Aviation Academy – India’s leading aviation academy in Delhi for pilot training, cadet pilot programs, and cabin crew courses with DGCA approval."
+        />
+        <link
+          rel="canonical"
+          href="https://www.starallianceaviation.com/about-us"
+        />
+
+        {/* --- Educational Organization Schema --- */}
         <script type="application/ld+json">
-          {`{
+          {JSON.stringify({
             "@context": "https://schema.org",
-          "@type": "EducationalOrganization",
-          "name": "Star Alliance Aviation Academy",
-          "url": "https://www.starallianceaviation.com/about-us",
-          "logo": "https://www.starallianceaviation.com/logo.png",
-          "foundingDate": "2022",
-          "description": "Star Alliance Aviation Academy is a leading aviation training institute in New Delhi offering pilot, cabin crew, and aviation management courses, committed to excellence, integrity, and innovation.",
-          "address": {
-            "@type": "PostalAddress",
-          "streetAddress": "E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building",
-          "addressLocality": "New Delhi",
-          "postalCode": "110075",
-          "addressCountry": "IN"
-  },
-          "contactPoint": {
-            "@type": "ContactPoint",
-          "telephone": "+91 92895 95558",
-          "contactType": "customer service",
-          "areaServed": "IN"
-  },
-          "sameAs": [
-          "https://www.facebook.com/starallianceaviationacademy/",
-          "https://www.instagram.com/starallianceaviation/?hl=en",
-          "https://www.youtube.com/@starallianceaviationacademy",
-          "https://www.linkedin.com/company/starallianceaviationacademy/",
-          "https://in.pinterest.com/starallianceaviationacademy/",
-          "https://x.com/staralliance_in"
-          ]
-}
+            "@type": "EducationalOrganization",
+            name: "Star Alliance Aviation Academy",
+            url: "https://www.starallianceaviation.com/about-us",
+            logo: "https://i.postimg.cc/FKqwPS2B/white-logo-1.png",
+            foundingDate: "2022",
+            description:
+              "Star Alliance Aviation Academy is a leading aviation training institute in New Delhi offering pilot, cabin crew, and aviation management courses, committed to excellence, integrity, and innovation.",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress:
+                "E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building",
+              addressLocality: "New Delhi",
+              postalCode: "110075",
+              addressCountry: "IN",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+91 92895 95558",
+              contactType: "customer service",
+              areaServed: "IN",
+            },
+            sameAs: [
+              "https://www.facebook.com/starallianceaviationacademy/",
+              "https://www.instagram.com/starallianceaviation/?hl=en",
+              "https://www.youtube.com/@starallianceaviationacademy",
+              "https://www.linkedin.com/company/starallianceaviationacademy/",
+              "https://in.pinterest.com/starallianceaviationacademy/",
+              "https://x.com/staralliance_in",
+            ],
+          })}
         </script>
 
+        {/* --- WebPage + Breadcrumb Schema --- */}
         <script type="application/ld+json">
-          {
+          {JSON.stringify({
             "@context": "https://schema.org",
-          "@type": "WebPage",
-          "url": "https://www.starallianceaviation.com/about-us",
-          "name": "About Us – Star Alliance Aviation Academy",
-          "description": "Learn more about Star Alliance Aviation Academy — our mission, values, team and commitment to delivering top‑quality aviation training.",
-          "breadcrumb": {
-            "@type": "BreadcrumbList",
-          "itemListElement": [
-          {
-            "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.starallianceaviation.com/"
-      },
-          {
-            "@type": "ListItem",
-          "position": 2,
-          "name": "About Us",
-          "item": "https://www.starallianceaviation.com/about-us"
-      }
-          ]
-  }
-}`}
+            "@type": "WebPage",
+            url: "https://www.starallianceaviation.com/about-us",
+            name: "About Us – Star Alliance Aviation Academy",
+            description:
+              "Learn more about Star Alliance Aviation Academy—our mission, values, team and commitment to delivering top-quality aviation training.",
+            breadcrumb: {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://starallianceaviation.com/",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "About Us",
+                  item: "https://starallianceaviation.com/about-us",
+                },
+              ],
+            },
+          })}
         </script>
+      </Helmet>
 
-
-
-      </Helmet> */}
       <section
         style={{
           backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/About/About%20us%20banners.jpg)`,
