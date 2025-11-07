@@ -25,23 +25,24 @@ export default function AviationTravelHospital() {
             {/* Hero Section */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Aviation%2C%20Hospitality%20%26%20Travel%20Management%20Course/Aviation%2C%20Hospitality%20and%20Travel%20Management1.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
-                className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
+                className="bg-[#2c3756] text-white flex items-center justify-center p-8 h-[190px] sm:h-[520px] 2xl:h-[700px] relative md:mt-0 mt-[72px]"
             >
                 <div className="absolute inset-0 bg-black/25"></div>
                 <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-                    <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
-                        <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
-                            Aviation, Hospitality & Travel Management Course
+                    <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-xl">
+                        <h1 className="text-3xl sm:text-3xl font-bold text-white font-heading animate-fade-in-down">
+                            Certificate Course in Aviation, Hospitality and Travel Management
+
                         </h1>
                         <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
                             <Link to="/" className="hover:underline text-blue-300">
                                 Star Alliance Aviation Academy /
                             </Link>{" "}
-                            Aviation, Hospitality & Travel Management Course
+
                         </h2>
                         <Link
                             to="/make-appointment"
@@ -58,7 +59,7 @@ export default function AviationTravelHospital() {
                 <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
                     <div className="w-full lg:w-1/2">
                         <img
-                            src="https://i.postimg.cc/HkJcyGLy/Aviation-Hospitality-Management.webp"
+                            src="https://i.postimg.cc/xCb58wW6/Aviation-Hospitality-and-Travel-Management-500-500.jpg"
                             alt="Aviation Hospitality Travel Management"
                             className="w-full max-w-md mx-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-300"
                             loading="lazy"
@@ -70,34 +71,24 @@ export default function AviationTravelHospital() {
                             About the Course
                         </h2>
                         <p className="text-gray-700 leading-relaxed text-justify">
-                            The <strong>Certificate Course in Aviation, Hospitality and Travel Management</strong> offered at
-                            <strong> Star Alliance Aviation Academy</strong> provides students with a
-                            solid foundation to start a professional journey in the aviation
-                            and travel industry. The course covers essential topics like
-                            aviation operations, ground handling, air traffic awareness, flight
-                            safety, and passenger management.
+                            The Aviation Management & Operations Course offered at Star Alliance Aviation Academy strives to provide students with solid basics to begin working in an aviation career path. The course covers the main parts of aviation operations, ground handling, air traffic awareness and management, flight safety, and passenger management.
+
                             <br />
                             <br />
-                            Students are guided by experienced instructors and industry
-                            professionals who help them understand the workings of the aviation
-                            ecosystem — from airport coordination to flight dispatching and
-                            compliance with DGCA standards.
+                            Students learn the functions of the aviation ecosystem under the guidance of experienced instructors and recognized facilitators from the industry, from airport coordination to flight dispatching and ensuring compliance with safety regulations.
+
                             <br />
                             <br />
-                            At Star Alliance, our practical, industry-based approach sets us
-                            apart from traditional teaching methods. Students engage in aviation
-                            simulations, airport handling exercises, and real-world airline
-                            procedures to prepare for effective operational delivery.
+                            At Star Alliance, our previous industry background allows us to differentiate our educational approach from traditional teaching. Students are exposed to aviation simulations, airport handling modules, and airline procedures, which assists in their preparation for productive operational delivery in compliance with Directorate General of Civil Aviation (DGCA) standards.
+
                             <br />
                             <br />
-                            The course also builds communication, self-discipline, and
-                            professional etiquette — essential for success in domestic and
-                            international airlines.
+                            The course also includes the necessary foundations in communications, self-discipline, and a professional attitude to assist students in integrating into a domestic or international airline.
+
                             <br />
                             <br />
-                            By the end of the program, students are fully prepared to begin
-                            careers as ground staff executives, airline coordinators, or travel
-                            consultants — equipped with technical expertise and people skills.
+                            By the end of the skiing management & operations course, students will transition confidently into their first employment experience as a separate airport operations executive, airline ground staff, or aviation coordinator with strong technical and people skills.
+
                         </p>
                     </div>
                 </div>
@@ -110,23 +101,23 @@ export default function AviationTravelHospital() {
                     {[
                         {
                             title: "Aviation Operations",
-                            desc: "Gain an understanding of flight, airport roles, and ground operational procedures.",
+                            desc: "An understanding of flight, the role of airports, and ground operational procedures.",
                         },
                         {
                             title: "Hospitality & Guest Services",
-                            desc: "Learn professional etiquette, guest service skills, and presentation standards.",
+                            desc: "understanding of travelling etiquette, guest service skills, and professionalism in appearance.",
                         },
                         {
                             title: "Travel & Tourism Management",
-                            desc: "Master ticketing systems, itinerary creation, and global travel coordination.",
+                            desc: "Knowledge of ticketing and reservation systems, as well as how to build a travel itinerary.",
                         },
                         {
                             title: "Customer Service Excellence",
-                            desc: "Develop skills to handle passengers and clients with care and professionalism.",
+                            desc: "understanding how to deal with passengers and/or clients.",
                         },
                         {
                             title: "Communication & Personality Development",
-                            desc: "Enhance fluency, teamwork, and interpersonal confidence for the aviation environment.",
+                            desc: "Competence in fluency in English, confidence, and ability to work as a team.",
                         },
                     ].map((module, index) => (
                         <div
@@ -140,30 +131,6 @@ export default function AviationTravelHospital() {
                         </div>
                     ))}
                 </div>
-            </section>
-
-            {/* Course Overview */}
-            <section className="max-w-6xl mx-auto px-6 py-14 border-t border-gray-200">
-                <h2 className="text-3xl font-bold text-primary mb-6">Course Overview</h2>
-                <ul className="space-y-3 text-gray-700">
-                    <li>
-                        <strong>Duration:</strong> 11 Months
-                    </li>
-                    <li>
-                        <strong>Schedule:</strong> 5 Days/Week (2 Hours/Day)
-                    </li>
-                    <li>
-                        <strong>Eligibility:</strong> 12th Pass
-                    </li>
-                    <li>
-                        <strong>Age Limit:</strong> 17–24 Years
-                    </li>
-                </ul>
-                <p className="mt-4 text-gray-700 leading-relaxed">
-                    This comprehensive program provides the theoretical and practical
-                    foundation needed for aspiring professionals in aviation, tourism, and
-                    hospitality sectors.
-                </p>
             </section>
 
             {/* Course Objectives */}
@@ -183,6 +150,26 @@ export default function AviationTravelHospital() {
                         of thriving in dynamic airline environments.
                     </li>
                 </ul>
+            </section>
+
+            {/* Course Overview */}
+            <section className="max-w-6xl mx-auto px-6 py-14 border-t border-gray-200">
+                <h2 className="text-3xl font-bold text-primary mb-6">Course Overview</h2>
+                <ul className="space-y-3 text-gray-700">
+                    <li>
+                        <strong>Duration:</strong> 11 Months
+                    </li>
+                    <li>
+                        <strong>Schedule:</strong> 5 Days/Week (2 Hours/Day)
+                    </li>
+                    <li>
+                        <strong>Eligibility:</strong> 12th Pass
+                    </li>
+                    <li>
+                        <strong>Age Limit:</strong> 17–24 Years
+                    </li>
+                </ul>
+
             </section>
 
             {/* Career Opportunities */}

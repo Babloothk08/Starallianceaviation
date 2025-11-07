@@ -56,8 +56,119 @@ const CabinCrew = () => {
       </Helmet>
 
 
-      {/* Section: Job-Oriented Training */}
+
+      {/* Hero Section */}
+      <div
+        className="
+    relative bg-cover bg-center bg-no-repeat text-white flex items-center justify-center p-8
+    h-[190px] sm:h-[520px] 2xl:h-[700px]
+    md:mt-0 mt-[72px]
+  "
+        // style={{
+        //   backgroundImage:
+        //     "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-Crew-Courses-BANNERS.jpg')",
+        // }}
+        style={{
+          backgroundImage:
+            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin%20Crew%20Courses%20BANNERS1.jpg')",
+        }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/25"></div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
+          <div className="text-white p-4 sm:p-5 max-w-2xl">
+            <h1 className="text-2xl sm:text-3xl font-bold font-heading animate-fade-in-down">
+              Cabin Crew Courses
+            </h1>
+
+            <h2 className="mt-2 text-xs sm:text-sm font-heading">
+              <Link to="/" className="hover:underline text-blue-300">
+                Star Alliance Aviation Academy /
+              </Link>{" "}
+              Cabin Crew Training
+            </h2>
+
+            <Link
+              to="/make-appointment"
+              className="inline-block mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-Secondary text-white font-semibold rounded-full shadow hover:bg-gray-100 hover:text-gray-800 transition"
+            >
+              Make an Appointment
+            </Link>
+          </div>
+        </div>
+      </div>
+
+
+      {/* Section: Program Overview */}
       <section className="px-6 py-20 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <img
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"
+            alt="Cabin Class"
+            className="rounded-2xl shadow-2xl border-4 border-blue-100"
+          />
+          <div>
+            <h2 className="text-4xl font-bold mb-5 text-primary font-heading">
+              Why Choose Our Cabin Crew Training?
+            </h2>
+            <p className="mb-6 text-lg font-sans">
+              Our team of experts has extensive experience & knowledge in the
+              field and is known to be one of India's leading aviation training
+              institutes, where you will gain an exceptional and practical
+              exposure unlike anything you have ever learned (period).
+              World-class training modules designed by industry experts and
+              ex-aviation professionals from leading airlines are accepted
+              across the globe. Our program focuses on:
+            </p>
+            <ul className="list-disc ml-6 space-y-3 text-gray-700 text-base font-sans">
+              <li>In-flight Safety Procedures</li>
+              <li>Grooming and Personality Development</li>
+              <li>Customer Service Excellence</li>
+              <li>Communication & Language Training</li>
+              <li>Emergency Situations & First Aid</li>
+              {/* <li>Mock Drills and Simulations</li> */}
+            </ul>
+            <p className="mt-6 font-sans">
+              Mode of Recognition: We make sure that our students are job-ready
+              and well-prepared in all the dimensions, from an airline interview
+              to practical experience in the skies.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Counseling */}
+      {/* <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-4xl font-bold mb-5 text-primary">
+              Counselling for Reappearance
+            </h2>
+            <p className="text-gray-700 text-lg">
+              From managing stress to setting realistic goals, our counselling
+              sessions offer vital support for aspiring aviators to enhance
+              their mental well-being and performance during training and
+              beyond.
+            </p>
+            <Link
+              to="/counselling-for-reappearance"
+              className="inline-block mt-6 text-Secondary font-semibold underline hover:text-Lightcolor transition"
+            >
+              Read More
+            </Link>
+          </div>
+          <img
+            src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/2.jpg"
+            alt="Counselling"
+            className="rounded-2xl shadow-2xl border-4 border-blue-100"
+          />
+        </div>
+      </section> */}
+
+      {/* Section: Job-Oriented Training */}
+      {/* <section className="px-6 py-20 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/3.jpg"
@@ -81,7 +192,7 @@ const CabinCrew = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Course Highlights */}
       <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-6">

@@ -2,16 +2,16 @@
   RewriteEngine On
   RewriteBase /
 
-  # --- Force HTTPS and WWW ---
+  # Force HTTPS and WWW (canonical redirect)
   RewriteCond %{HTTPS} off [OR]
-  RewriteCond %{HTTP_HOST} ^starallianceaviation\.com$ [NC]
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
   RewriteRule ^ https://www.starallianceaviation.com%{REQUEST_URI} [L,R=301]
 
-  # --- Don't rewrite existing files or directories ---
+  # Don’t rewrite existing files or directories
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
-  # --- Redirect everything else to index.html ---
+  # SPA Routing (React/Vite App)
   RewriteRule ^ index.html [L]
 </IfModule>

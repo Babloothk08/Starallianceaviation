@@ -153,6 +153,9 @@ const Navbar = () => {
             />
           </Link>
           <ul className="flex gap-6 text-sm font-medium relative">
+            <NavLink to="/">
+              <li className="hover:text-Secondary">Home</li>
+            </NavLink>
             <NavLink to="/about-us">
               <li className="hover:text-Secondary">About Us</li>
             </NavLink>
@@ -178,7 +181,7 @@ const Navbar = () => {
             >
               <NavLink to="/cabin-crew-training">
                 <div className="flex items-center gap-1 cursor-pointer hover:text-Secondary">
-                  Cabin Crew Training <ChevronDown size={16} />
+                  Cabin Crew Courses  <ChevronDown size={16} />
                 </div>
               </NavLink>
               {activeDropdown === "cabin" && renderDropdown("cabin")}
@@ -197,9 +200,9 @@ const Navbar = () => {
               {activeDropdown === "services" && renderDropdown("services")}
             </li>
 
-            <NavLink to="/blog">
+            {/* <NavLink to="/blog">
               <li className="hover:text-Secondary">Blog</li>
-            </NavLink>
+            </NavLink> */}
           </ul>
           <button className="bg-Secondary text-white hover:text-white text-sm uppercase font-semibold px-4 py-2 rounded hover:bg-Lightcolor transition">
             <Link to="/contact-us"> Contact Us </Link>

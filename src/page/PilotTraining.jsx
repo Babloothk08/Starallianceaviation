@@ -246,7 +246,7 @@ const PilotTraining = () => {
             </div>
             <div className="flex-1 flex justify-center">
               <img
-                src="https://www.fstcfto.in/storage/images/FSTC%20FLying%20School%20Complete%20Pilot%20Program%20best%20FTO%20in%20India.png"
+                src="https://i.postimg.cc/qMDy9kb2/FSTC-FLying-School-Complete-Pilot-Program-best-FTO-in-India.png"
                 alt="Pilot Training Process"
                 className="w-full max-w-xs md:max-w-sm rounded-xl shadow-lg object-cover"
               />

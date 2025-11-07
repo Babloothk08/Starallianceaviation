@@ -27,23 +27,24 @@ export default function CertificateHospitality() {
             {/* ===== Hero Section ===== */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/wBXBX9YQ/Aviatio.jpg)`,
+                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Advance%20Certificate%20in%20Aviation%20%26%20Hospitality%20Management/Advance%20Certificate%20Course%20BANNERS1.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
-                className="bg-[#2c3756] text-white flex items-center justify-center p-8 md:h-[600px] h-[190px] relative md:mt-0 mt-[72px]"
+                className="bg-[#2c3756] text-white flex items-center justify-center p-8  h-[190px] sm:h-[520px] 2xl:h-[700px] relative md:mt-0 mt-[72px]"
             >
                 <div className="absolute inset-0 bg-black/25"></div>
                 <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
-                    <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-2xl">
-                        <h1 className="text-3xl sm:text-5xl font-bold text-white font-heading animate-fade-in-down">
-                            Advance Certificate in Aviation & Hospitality Management
+                    <div className="sm:visible invisible text-white p-4 sm:p-5 max-w-xl">
+                        <h1 className="text-3xl sm:text-3xl font-bold text-white font-heading animate-fade-in-down">
+                            Advance Certificate Course in Aviation, Hospitality, Travel, Customer Service and Airport Ground Services
+
                         </h1>
                         <h2 className="mt-2 text-xs sm:text-sm text-white font-heading">
                             <Link to="/" className="hover:underline text-blue-300">
                                 Star Alliance Aviation Academy /
                             </Link>{" "}
-                            Advance Certificate in Aviation & Hospitality Management
+                            {/* Advance Certificate in Aviation & Hospitality Management */}
                         </h2>
                         <Link
                             to="/make-appointment"
@@ -60,7 +61,7 @@ export default function CertificateHospitality() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
                     <div className="lg:w-1/2 flex justify-center">
                         <img
-                            src="https://i.postimg.cc/HkJcyGLy/Aviation-Hospitality-Management.webp"
+                            src="https://i.postimg.cc/yx4PZfHv/Advance-Certificate-Course-500-500.jpg"
                             alt="Hospitality Training"
                             loading="lazy"
                             className="rounded-2xl shadow-lg w-[80%] object-cover"
@@ -73,14 +74,13 @@ export default function CertificateHospitality() {
                         </h2>
                         <p className="leading-relaxed text-justify">
                             The Advanced Aviation Training & Airport Ground Handling Program is one of Star Alliance Aviation Academy's most inclusive aviation career courses.
-                            The 6-month fast-tracked program is for 12th-grade graduate students who are ready to join the aviation workforce. It provides advanced training in areas such as airport ground handling, marshalling, airside operations, flight coordination, and the passenger management system.
 
+                        </p>
+                        <p className="leading-relaxed text-justify">
+                            The 6-month fast-tracked program is for 12th-grade graduate students who are ready to join the aviation workforce. It provides advanced training in areas such as airport ground handling, marshalling, airside operations, flight coordination, and the passenger management system.
                         </p>
                         <p className="leading-relaxed text-justify">
                             Students gain a thorough understanding of aviation safety procedures, service delivery standards, and communication protocols through extensive simulation, analysis of case studies, and trainer-led workshops. The course provides each candidate with the necessary institutional knowledge as well as the professional discipline and confidence expected by airline professionals around the world.
-
-                        </p>
-                        <p className="leading-relaxed text-justify">
                             Graduates will be fully prepared to take on roles such as ground operations executive, flight dispatch assistant, and aviation service coordinator with stations and operations with major airlines and aviation service providers throughout India and the world.
 
                         </p>
@@ -113,7 +113,7 @@ export default function CertificateHospitality() {
 
             {/* ===== Course Info ===== */}
             <section className="py-16 px-4">
-                <div className="max-w-6xl mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-8 text-center">
+                <div className="max-w-6xl mx-auto grid md:grid-cols-4 sm:grid-cols-2 gap-8 text-center">
                     <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
                         <h3 className="text-primary font-bold text-xl mb-2">Duration</h3>
                         <p>6 Months</p>
@@ -124,7 +124,11 @@ export default function CertificateHospitality() {
                     </div>
                     <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
                         <h3 className="text-primary font-bold text-xl mb-2">Eligibility</h3>
-                        <p>12th Pass | Age Limit: 17–24 Years</p>
+                        <p>12th Pass </p>
+                    </div>
+                    <div className="p-6 rounded-2xl shadow-md bg-white hover:shadow-lg transition">
+                        <h3 className="text-primary font-bold text-xl mb-2">Age Limit</h3>
+                        <p>17–24 Years</p>
                     </div>
                 </div>
             </section>
