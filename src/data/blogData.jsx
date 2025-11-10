@@ -442,6 +442,4 @@ export const blogPosts = [
 </section>
 `,
   }
-
-
 ];

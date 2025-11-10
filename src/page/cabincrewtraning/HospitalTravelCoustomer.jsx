@@ -10,7 +10,7 @@ export default function HospitalityTravelCustomerService() {
     return (
         <div className="font-sans text-gray-700">
             {/* ===== SEO META TAGS ===== */}
-            {/* <Helmet>
+            <Helmet>
                 <title>
                     Hospitality, Travel & Customer Service Course in India
                 </title>
@@ -18,11 +18,8 @@ export default function HospitalityTravelCustomerService() {
                     name="description"
                     content="Master hospitality, travel & customer service skills at Star Alliance Aviation Academy. Join our 11-month program and start your international career journey."
                 />
-                <link
-                    rel="canonical"
-                    href="https://www.starallianceaviation.com/hospitality-travel-customer-service"
-                />
-            </Helmet> */}
+                <link rel="canonical" href="https://www.starallianceaviation.com/aviation-hospitality-travel-management" />
+            </Helmet>
 
             {/* ===== HERO SECTION ===== */}
             <section

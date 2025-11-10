@@ -12,7 +12,7 @@ export default function HospitalityManagement() {
             <Helmet>
                 <title>Aviation, Hospitality & Travel Management Course</title>
                 <meta name="description" content="Enroll in Star Alliance Aviation Academy’s 11-month course in Aviation, Hospitality & Travel Management. Build a global career in airlines, hotels & tourism." />
-                <link rel="canonical" href="https://www.starallianceaviation.com/cabin-crew-training" />
+                <link rel="canonical" href="https://www.starallianceaviation.com/hospitality-aviation-mangement" />
             </Helmet>
             {/* Hero Section */}
             <section
