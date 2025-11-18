@@ -448,12 +448,12 @@ export const blogPosts = [
     slug: "cadet-pilot-program-vs-regular-pilot-course-which-path-is-right-for-you",
     title: "Cadet Pilot Program or Regular Pilot Course—Which Path Is Right for You?",
     category: "Aviation Career Guidance",
-    date: "2025-10-25",
+    date: "2025-11-12",
     author: "Star Alliance Aviation Academy",
     readTime: "8 min read",
     image:
       "https://i.postimg.cc/85D1Kytc/blog-Cadet-Pilot-Program-or-Regular-Pilot-Course-Which-Path-Is-Right-for-You.jpg",
-      excerpt:
+    excerpt:
       "Understand the difference between Cadet Pilot Programs and Regular Pilot Courses. Learn which training path suits your aviation career goals with Star Alliance Aviation Academy.",
     metaTitle:
       "Cadet Pilot Program vs Regular Pilot Course | Star Alliance Aviation Academy",
@@ -537,6 +537,273 @@ export const blogPosts = [
   <p class="font-sans mb-4">In Star Alliance Aviation Academy we ensure each student is directed to the appropriate training course, receives structured training, and has an educational experience that encompasses world standards and practice. You will not only consider a career as a pilot as an option but also as a distinct possibility.</p>
 </section>
 `,
+  },
+
+  {
+    id: 6,
+    slug: "top-10-cabin-crew-skills-employers-look-for-how-to-prepare-and-impress",
+    metatitle: "Top 10 Cabin Crew Skills Employers Want | Best Cabin Crew Course in Delhi",
+    metadescription: "Learn the top cabin crew skills airlines demand. Get expert guidance at the best cabin crew training institute in Delhi and prepare for a successful aviation career.",
+    canonical: "https://www.starallianceaviation.com/blog/top-10-cabin-crew-skills-employers-look-for-how-to-prepare-and-impress",
+    title: "Top 10 Cabin Crew Skills Employers Look For—How to Prepare & Impress",
+    category: "Cabin Crew Training",
+    date: "2025-08-20",
+    author: "Star Alliance Aviation Academy",
+    readTime: "10 min read",
+    image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df",
+    excerpt:
+      "Discover the top 10 cabin crew skills airlines demand and learn how to prepare professionally through structured aviation and cabin crew training programs.",
+    content: `
+<div class="max-w-4xl mx-auto px-6 py-10 blog-container text-gray-800 leading-relaxed">
+  <h1 class="text-3xl font-bold mb-6">
+    Top 10 Cabin Crew Skills Employers Look For—How to Prepare & Impress
+  </h1>
+
+  <p class="mb-4">
+    The aviation sector is expanding rapidly, and with this growth comes
+    increasing demand for skilled cabin crew professionals. Whether your
+    plan is to become a flight attendant or you are looking at an air
+    hostess course, it is important to know what the airlines currently look
+    for in their recruitment. Based on my experience training hundreds of
+    students in cabin crew development at Star Alliance Aviation Academy, I
+    assure you that airline recruiters do not hire based on appearance,
+    height, or communication alone. Recruiters hire on skills, personality,
+    discipline, and aviation shape.
+  </p>
+
+  <p class="mb-4">
+    This blog is meant to outline the 10 skills that airlines are looking
+    for, how to develop those skills, and how institutes like a credible
+    cabin crew training institute or a cabin crew course in Delhi can
+    facilitate your being industry ready. The skills outlined can also be
+    useful to the student who is pursuing aviation courses or hospitality
+    management in aviation programs.
+  </p>
+
+  <!-- SECTION -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Exceptional Communication Skills
+  </h2>
+  <p class="mb-3">
+    If there is one thing that characterizes a cabin crew professional, it
+    is their communication. Whether it is greeting passengers or delivering
+    safety instructions, effective communication allows for clear and calm
+    interactions at all times during the flight.
+  </p>
+
+  <p class="mb-2 font-medium">Airlines are increasingly looking for:</p>
+  <ul class="list-disc ml-6 mb-4">
+    <li>Clear verbalization</li>
+    <li>Neutral accent</li>
+    <li>Listening</li>
+    <li>Soft but confident delivery</li>
+  </ul>
+
+  <p class="mb-4">
+    A quality cabin crew training institute like Star Alliance Aviation
+    Academy trains its students in professional speaking, diction, and
+    overall aviation vernacular. As early as in an air hostess course,
+    communication should be the number one priority in aviation because it
+    directly relates to passenger safety and satisfaction.
+  </p>
+
+  <!-- CUSTOMER SERVICE -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Customer Service Excellence
+  </h2>
+  <p class="mb-4">
+    Cabin crew members are the public face of the airline, and to that end,
+    they cannot possess anything less than superior customer service skills.
+    Airlines expect crew members to perform their job in context and without
+    breaking a sweat.
+  </p>
+
+  <p class="font-medium mb-2">Customer service skills involve:</p>
+  <ul class="list-disc ml-6 mb-4">
+    <li>Identifying passengers' needs</li>
+    <li>Managing complaints professionally</li>
+    <li>Patience and tolerance</li>
+    <li>Ensuring comfort throughout the flight</li>
+  </ul>
+
+  <p class="mb-4">
+    Aviation and hospitality management programs train students in etiquette,
+    grooming, F&B service, and complaint resolution.
+  </p>
+
+  <!-- GROOMING -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Professional Grooming & Etiquette
+  </h2>
+  <p class="mb-3">
+    Grooming is an essential part of the cabin crew identity. Airlines enforce
+    grooming standards because crew represent the airline in front of
+    passengers.
+  </p>
+
+  <p class="font-medium mb-2">Training includes:</p>
+  <ul class="list-disc ml-6 mb-4">
+    <li>Uniform presentation</li>
+    <li>Make-up & hair standards</li>
+    <li>Personal hygiene</li>
+    <li>Professional body language</li>
+  </ul>
+
+  <p class="mb-4">
+    Grooming is about discipline—not glamour.
+  </p>
+
+  <!-- SAFETY -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Safety & Security Awareness
+  </h2>
+  <p class="mb-4">
+    Many students think cabin crew work is mostly hospitality. In reality,
+    your primary duty is passenger safety.
+  </p>
+
+  <p class="font-medium mb-2">Airlines expect crew to be:</p>
+  <ul class="list-disc ml-6 mb-4">
+    <li>Alert</li>
+    <li>Trained in emergency protocols</li>
+    <li>Able to manage in-flight issues</li>
+    <li>Knowledgeable about safety equipment</li>
+  </ul>
+
+  <p class="mb-4">
+    Air hostess courses include safety drills and emergency simulations.
+  </p>
+
+  <!-- TEAMWORK -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Teamwork & Coordination
+  </h2>
+  <p class="mb-4">
+    Flights run smoothly only when crew work as a team along with pilots,
+    dispatchers, and ground staff.
+  </p>
+
+  <p class="font-medium mb-2">Teamwork includes:</p>
+  <ul class="list-disc ml-6 mb-4">
+    <li>Supporting teammates</li>
+    <li>Taking accountability</li>
+    <li>Professional behaviour</li>
+    <li>Clear communication</li>
+  </ul>
+
+  <!-- PROBLEM SOLVING -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Problem-Solving Skills
+  </h2>
+  <p class="mb-4">
+    Airlines want candidates who think quickly and calmly—whether resolving
+    a seating issue or handling upset passengers.
+  </p>
+
+  <ul class="list-disc ml-6 mb-4">
+    <li>Assessing situations</li>
+    <li>Managing passenger behaviour</li>
+    <li>Decision-making under pressure</li>
+    <li>Creating solutions without escalation</li>
+  </ul>
+
+  <!-- CULTURAL AWARENESS -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Cultural Awareness & Global Exposure
+  </h2>
+  <p class="mb-4">
+    Cabin crew interact with passengers from across the world. Cultural
+    awareness ensures respectful and personalized service.
+  </p>
+
+  <ul class="list-disc ml-6 mb-4">
+    <li>Cultural sensitivity</li>
+    <li>Open-mindedness</li>
+    <li>Respectful communication</li>
+    <li>Global awareness</li>
+  </ul>
+
+  <!-- FITNESS -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Physical Fitness & Stamina
+  </h2>
+  <p class="mb-4">
+    The job requires long hours, physical strength, and adaptability.
+  </p>
+
+  <ul class="list-disc ml-6 mb-4">
+    <li>Standing long hours</li>
+    <li>Lifting luggage</li>
+    <li>Assisting in emergencies</li>
+    <li>Performing in-air tasks</li>
+  </ul>
+
+  <!-- INTERPERSONAL -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Strong Interpersonal Skills
+  </h2>
+  <p class="mb-4">
+    Cabin crew must be approachable, calm, and empathetic.
+  </p>
+
+  <ul class="list-disc ml-6 mb-4">
+    <li>Positive attitude</li>
+    <li>Friendliness</li>
+    <li>Confidence (not arrogance)</li>
+    <li>Emotional control</li>
+  </ul>
+
+  <!-- PROFESSIONAL DISCIPLINE -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    Professional Discipline & Responsibility
+  </h2>
+  <p class="mb-4">
+    Airlines require 100% professionalism—punctuality, grooming, behaviour,
+    and reliability.
+  </p>
+
+  <ul class="list-disc ml-6 mb-4">
+    <li>Following airline policies</li>
+    <li>Maintaining confidentiality</li>
+    <li>Remaining conflict-free</li>
+    <li>Consistency in behaviour</li>
+  </ul>
+
+  <!-- PREPARATION -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">
+    How to Prepare & Impress Airline Recruiters
+  </h2>
+  <ul class="list-disc ml-6 mb-4">
+    <li>Joining a reputed aviation institute</li>
+    <li>Mock interviews</li>
+    <li>Daily grooming</li>
+    <li>English communication practice</li>
+    <li>Understanding aviation environment</li>
+  </ul>
+
+  <!-- FINAL THOUGHTS -->
+  <h2 class="text-2xl font-semibold mt-8 mb-3">Final Thoughts</h2>
+  <p class="mb-4">
+    Being cabin crew is about service, safety, discipline, and professionalism.
+    With the right skills and training, you can build a successful aviation
+    career.
+  </p>
+
+  <p>
+    With dedication and proper training, you can impress airline recruiters
+    and begin your journey in the skies.
+  </p>
+</div>
+`
+
   }
+
+
+
+
+
+
+
+
 
 ];
