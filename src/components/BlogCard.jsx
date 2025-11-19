@@ -6,7 +6,7 @@ export default function BlogCard({ post }) {
       <img
         src={post.image}
         alt={post.title}
-        className="w-full h-48 object-cover"
+        className="w-full  object-contain"
       />
       <div className="p-4">
         <span className="text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded">

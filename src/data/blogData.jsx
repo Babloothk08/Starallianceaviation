@@ -12,7 +12,7 @@ export const blogPosts = [
     author: "Star Alliance Aviation Academy ",
     readTime: "8 min read",
     image:
-      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/Why%20Star%20Alliance%20Aviation%20Academy%20Is%20the%20Right%20Choice%20for%20Aspiring%20Pilots%20(1).jpg",
+      "https://i.postimg.cc/HLnYQQFb/Why-Star-Alliance-Aviation-Academy-Is-the-Right-Choice-for-Aspiring-Pilots-(1).jpg",
     excerpt:
       "Discover why Star Alliance Aviation Academy  is one of India’s most trusted pilot training institutes, offering DGCA-compliant courses, world-class facilities, and unmatched career support.",
     content: `
@@ -21,7 +21,7 @@ export const blogPosts = [
 
         <p class="font-sans mb-2">Among the many options available, Star Alliance Aviation Academy  stands out as one of the most trusted and best pilot training institutes in India—for several compelling reasons.</p>
 
-        <h2 class="text-3xl font-heading font-bold mt-10">Why Star Alliance Aviation Academy  Is the Right Choice for Aspiring Pilots</h2>
+       
         <img
           src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/blog/Why%20Star%20Alliance%20Aviation%20Academy%20Is%20the%20Right%20Choice%20for%20Aspiring%20Pilots%20(1).jpg"
           alt="Star Alliance Aviation Academy "
@@ -442,7 +442,6 @@ export const blogPosts = [
 </section>
 `,
   },
-
   {
     id: 5,
     slug: "cadet-pilot-program-vs-regular-pilot-course-which-path-is-right-for-you",
@@ -538,7 +537,6 @@ export const blogPosts = [
 </section>
 `,
   },
-
   {
     id: 6,
     slug: "top-10-cabin-crew-skills-employers-look-for-how-to-prepare-and-impress",
@@ -550,14 +548,17 @@ export const blogPosts = [
     date: "2025-11-18",
     author: "Star Alliance Aviation Academy",
     readTime: "10 min read",
-    image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df",
+    image: "https://i.postimg.cc/j5Tfx3DR/Top-10-Cabin-Crew-Skills-Employers-Look-For-How-to-Prepare-Impress-BLOG-IMAGES-(1).jpg",
     excerpt:
       "Discover the top 10 cabin crew skills airlines demand and learn how to prepare professionally through structured aviation and cabin crew training programs.",
     content: `
 <div class="max-w-4xl mx-auto px-6 py-10 blog-container text-gray-800 leading-relaxed">
-  <h1 class="text-3xl font-bold mb-6">
-    Top 10 Cabin Crew Skills Employers Look For—How to Prepare & Impress
-  </h1>
+ 
+  <img
+    src="https://i.postimg.cc/j5Tfx3DR/Top-10-Cabin-Crew-Skills-Employers-Look-For-How-to-Prepare-Impress-BLOG-IMAGES-(1).jpg"
+    alt="Cadet Pilot Program vs Regular Pilot Course"
+    class="w-full rounded-xl shadow-lg object-cover my-6 max-h-[500px]"
+  />
 
   <p class="mb-4">
   The aviation sector is expanding rapidly, and with this growth comes increasing demand for skilled cabin crew professionals. Whether your plan is to become a flight attendant or you are looking at an air hostess course, it is important to know what the airlines currently look for in their recruitment. Based on my experience training hundreds of students in cabin crew development at Star Alliance Aviation Academy, I assure you that airline recruiters do not hire based on appearance, height, or communication alone. Recruiters hire on skills, personality, discipline, and aviation shape.
@@ -702,14 +703,16 @@ export const blogPosts = [
     <li>Decision-making under pressure</li>
     <li>Creating solutions without escalation</li>
   </ul>
-
+<p class="mb-4">
+Under this step-by-step process, you develop problem-solving skills in a structured and systematic cabin crew training institute.
+</p>
   <!-- CULTURAL AWARENESS -->
   <h2 class="text-2xl font-semibold mt-8 mb-3">
     Cultural Awareness & Global Exposure
   </h2>
   <p class="mb-4">
-    Cabin crew interact with passengers from across the world. Cultural
-    awareness ensures respectful and personalized service.
+   Cabin crew members come into contact with passengers from all over the world. Being aware of cultural differences and lifestyles will help you provide respectful, personalized service to your passengers.
+
   </p>
 
   <ul class="list-disc ml-6 mb-4">
@@ -718,13 +721,16 @@ export const blogPosts = [
     <li>Respectful communication</li>
     <li>Global awareness</li>
   </ul>
+  <p> class="mb-4">This is why the advanced courses for cabin crew in Delhi include modules on cultural studies and interpersonal psychology.
+
+  </p>
 
   <!-- FITNESS -->
   <h2 class="text-2xl font-semibold mt-8 mb-3">
     Physical Fitness & Stamina
   </h2>
   <p class="mb-4">
-    The job requires long hours, physical strength, and adaptability.
+    Cabin crew positions require long hours, the ability to move quickly, and adaptability to new time zones. Airlines seek candidates who are in excellent health and fitness
   </p>
 
   <ul class="list-disc ml-6 mb-4">
@@ -733,13 +739,17 @@ export const blogPosts = [
     <li>Assisting in emergencies</li>
     <li>Performing in-air tasks</li>
   </ul>
+  <p class="mb-4">Students who take an air hostess course are also taught fitness routines, healthy eating, and lifestyle choices appropriate for the job.
+
+  </p>
 
   <!-- INTERPERSONAL -->
   <h2 class="text-2xl font-semibold mt-8 mb-3">
     Strong Interpersonal Skills
   </h2>
   <p class="mb-4">
-    Cabin crew must be approachable, calm, and empathetic.
+   Cabin crew develop fast relationships with passengers, sometimes in seconds; the more approachable, courteous, and empathetic you can be, the more effortless it will be for them to manipulate the comfort of their passenger's journey.
+
   </p>
 
   <ul class="list-disc ml-6 mb-4">
@@ -748,14 +758,17 @@ export const blogPosts = [
     <li>Confidence (not arrogance)</li>
     <li>Emotional control</li>
   </ul>
+  <p class="mb-4">
+  These skills will help you be successful throughout your aviation courses and airline interviews.
+
+  </p>
 
   <!-- PROFESSIONAL DISCIPLINE -->
   <h2 class="text-2xl font-semibold mt-8 mb-3">
     Professional Discipline & Responsibility
   </h2>
   <p class="mb-4">
-    Airlines require 100% professionalism—punctuality, grooming, behaviour,
-    and reliability.
+   Airlines require 100% professionalism from their cabin crew team. Professionalism entails discipline throughout your entire career—everything from reporting for duty, grooming, communicating, and exhibiting professional conduct.
   </p>
 
   <ul class="list-disc ml-6 mb-4">
@@ -764,42 +777,44 @@ export const blogPosts = [
     <li>Remaining conflict-free</li>
     <li>Consistency in behaviour</li>
   </ul>
+  <p class="mb-4">
+  Discipline is instilled through structured training at an accredited cabin crew training institute.
+  </p>
 
   <!-- PREPARATION -->
   <h2 class="text-2xl font-semibold mt-8 mb-3">
-    How to Prepare & Impress Airline Recruiters
+   How to Prepare & Impress Airline Recruiters
   </h2>
+  <p class="mb-4">
+  If you really want to differentiate yourself from the competition, your preparation should include the following:</p>
   <ul class="list-disc ml-6 mb-4">
     <li>Joining a reputed aviation institute</li>
+    <p class="mb-2 mt-2">A highly regarded cabin crew course in Delhi or air hostess course will develop the practical skills and theoretical knowledge that airlines seek out.
+</p>
     <li>Mock interviews</li>
-    <li>Daily grooming</li>
-    <li>English communication practice</li>
+     <p class="mb-2 mt-2">While academics do matter, airlines assess more of your personality</p>
+    <li>Grooming each day</li>
+     <p class="mb-2 mt-2">You must follow professional grooming standards each and every day, not just for the interview.
+</p>
+    <li>Practicing English communication</li>
+     <p class="mb-2 mt-2">Read aloud, watch aviation interviews in English, and improve your tone and accent</p>
     <li>Understanding aviation environment</li>
+     <p class="mb-2 mt-2">Understand aircraft types, airlines, airport operations, and aviation language.
+Reputable institutes that offer aviation courses or hospitality aviation management courses that are designed to get you that level of training that makes you ready for domestic and international airline interviews.
+</p>
   </ul>
 
   <!-- FINAL THOUGHTS -->
   <h2 class="text-2xl font-semibold mt-8 mb-3">Final Thoughts</h2>
   <p class="mb-4">
-    Being cabin crew is about service, safety, discipline, and professionalism.
-    With the right skills and training, you can build a successful aviation
-    career.
+  Being a cabin crew member isn't just about the opportunity to see the world—it involves responsibility, service, safety, and professionalism. If you cultivate the skills noted above and train in a systematic way, you can create a career within aviation. Whether you begin with an air hostess course or with a specific cabin crew course, such as those offered in Delhi, the right kind of training can change your future.
+With dedication and discipline and a supportive and professional cabin crew training institute, you can impress airline recruiters and embark on your journey in the skies.
+
   </p>
 
-  <p>
-    With dedication and proper training, you can impress airline recruiters
-    and begin your journey in the skies.
-  </p>
+ 
 </div>
 `
 
   }
-
-
-
-
-
-
-
-
-
 ];
