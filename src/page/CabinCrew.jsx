@@ -58,25 +58,22 @@ const CabinCrew = () => {
 
 
       {/* Hero Section */}
-      <div
+      {/* <div
         className="
     relative bg-cover bg-center bg-no-repeat text-white flex items-center justify-center p-8
     h-[190px] sm:h-[520px] 2xl:h-[700px]
     md:mt-0 mt-[72px]
   "
-        // style={{
-        //   backgroundImage:
-        //     "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin-Crew-Courses-BANNERS.jpg')",
-        // }}
+     
         style={{
           backgroundImage:
             "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin%20Crew%20Courses%20BANNERS1.jpg')",
         }}
       >
-        {/* Overlay */}
+  
         <div className="absolute inset-0 bg-black/25"></div>
 
-        {/* Content */}
+    
         <div className="relative z-10 max-w-6xl w-full mt-4 sm:mt-8">
           <div className="text-white p-4 sm:p-5 max-w-2xl">
             <h1 className="text-2xl sm:text-3xl font-bold font-heading animate-fade-in-down">
@@ -98,11 +95,11 @@ const CabinCrew = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* Section: Program Overview */}
-      <section className="px-6 py-20 max-w-6xl mx-auto">
+      <section className="px-6 py-20 max-w-6xl mx-auto sm:mt-32 mt-12">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
             src="https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/1.jpg"

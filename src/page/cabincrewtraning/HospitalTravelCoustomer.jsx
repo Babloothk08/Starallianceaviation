@@ -22,7 +22,7 @@ export default function HospitalityTravelCustomerService() {
             </Helmet>
 
             {/* ===== HERO SECTION ===== */}
-            <section
+            {/* <section
                 style={{
                     backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Hospitality%2C%20Travel%20%26%20Customer%20Service%20Course%20in%20India/Hospitality%2C%20Travel%20%26%20Customer%20Service%20banner1.jpg)`,
                     backgroundSize: "cover",
@@ -40,7 +40,7 @@ export default function HospitalityTravelCustomerService() {
                             <Link to="/" className="hover:underline text-blue-300">
                                 Star Alliance Aviation Academy /
                             </Link>{" "}
-                            {/* Hospitality, Travel & Customer Service Course in India */}
+                           
                         </h2>
                         <Link
                             to="/make-appointment"
@@ -50,10 +50,10 @@ export default function HospitalityTravelCustomerService() {
                         </Link>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* ===== ABOUT COURSE ===== */}
-            <section className="py-16 px-4 border-b">
+            <section className="py-16 px-4 border-b sm:mt-32 mt-12">
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
                     <div className="lg:w-1/2 flex justify-center">
                         <img

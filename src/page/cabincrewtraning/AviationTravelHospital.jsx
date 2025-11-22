@@ -55,15 +55,15 @@ export default function AviationTravelHospital() {
             </section>
 
             {/* About Section */}
-            <section className="flex justify-center px-6 py-16 border-b border-gray-200">
+            <section className="flex justify-center px-6 py-16 border-b border-gray-200 sm:mt-32 mt-12">
                 <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
                     <div className="w-full lg:w-1/2">
-                        <img
+                        {/* <img
                             src="https://i.postimg.cc/xCb58wW6/Aviation-Hospitality-and-Travel-Management-500-500.jpg"
                             alt="Aviation Hospitality Travel Management"
                             className="w-full max-w-md mx-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-300"
                             loading="lazy"
-                        />
+                        /> */}
                     </div>
 
                     <div className="w-full lg:w-1/2">
