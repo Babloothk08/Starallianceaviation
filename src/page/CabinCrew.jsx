@@ -58,7 +58,7 @@ const CabinCrew = () => {
 
 
       {/* Hero Section */}
-      {/* <div
+      <div
         className="
     relative bg-cover bg-center bg-no-repeat text-white flex items-center justify-center p-8
     h-[190px] sm:h-[520px] 2xl:h-[700px]
@@ -67,7 +67,7 @@ const CabinCrew = () => {
      
         style={{
           backgroundImage:
-            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin%20Crew%20Courses%20BANNERS1.jpg')",
+            "url('https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Cabin%20Crew%20Courses%20BANNERS.jpg')",
         }}
       >
   
@@ -95,7 +95,7 @@ const CabinCrew = () => {
             </Link>
           </div>
         </div>
-      </div> */}
+      </div>
 
 
       {/* Section: Program Overview */}

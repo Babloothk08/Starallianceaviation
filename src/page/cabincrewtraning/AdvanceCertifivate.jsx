@@ -25,9 +25,9 @@ export default function CertificateHospitality() {
             </Helmet>
 
             {/* ===== Hero Section ===== */}
-            {/* <section
+            <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Advance%20Certificate%20in%20Aviation%20%26%20Hospitality%20Management/Advance%20Certificate%20Course%20BANNERS1.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/yxMXH2N2/Aviation_Hospitality_and_Travel_Management.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -54,18 +54,18 @@ export default function CertificateHospitality() {
                         </Link>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             {/* ===== About Course ===== */}
             <section className="py-16 px-4 border-b sm:mt-32 mt-12">
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
                     <div className="lg:w-1/2 flex justify-center">
-                        {/* <img
-                            src="https://i.postimg.cc/yx4PZfHv/Advance-Certificate-Course-500-500.jpg"
+                        <img
+                            src="https://i.postimg.cc/T1zq6Bwf/Advance_Certificate_Course_500_500.jpg"
                             alt="Hospitality Training"
                             loading="lazy"
                             className="rounded-2xl shadow-lg w-[80%] object-cover"
-                        /> */}
+                        />
                     </div>
 
                     <div className="lg:w-1/2 space-y-5">

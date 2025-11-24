@@ -22,9 +22,9 @@ export default function HospitalityTravelCustomerService() {
             </Helmet>
 
             {/* ===== HERO SECTION ===== */}
-            {/* <section
+            <section
                 style={{
-                    backgroundImage: `url(https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/CabinCrew/Hospitality%2C%20Travel%20%26%20Customer%20Service%20Course%20in%20India/Hospitality%2C%20Travel%20%26%20Customer%20Service%20banner1.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/RhkQB2Fv/Hospitality_Travel_Customer_Service_banner.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -50,7 +50,7 @@ export default function HospitalityTravelCustomerService() {
                         </Link>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             {/* ===== ABOUT COURSE ===== */}
             <section className="py-16 px-4 border-b sm:mt-32 mt-12">
