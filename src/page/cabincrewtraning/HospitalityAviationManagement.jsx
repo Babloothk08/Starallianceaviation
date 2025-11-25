@@ -52,7 +52,7 @@ export default function HospitalityManagement() {
                 <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
                     <div className="w-full lg:w-1/2">
                         <img
-                            src="https://i.postimg.cc/NFq4HNcD/Hospitality-Management-500-500.jpg"
+                            src="https://i.postimg.cc/prwYH3Tx/Hospitality_Management_500_500.jpg"
                             alt="Hospitality Management"
                             className="w-full max-w-md mx-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-300"
                             loading="lazy"

@@ -27,7 +27,7 @@ export default function CertificateHospitality() {
             {/* ===== Hero Section ===== */}
             <section
                 style={{
-                    backgroundImage: `url(https://i.postimg.cc/yxMXH2N2/Aviation_Hospitality_and_Travel_Management.jpg)`,
+                    backgroundImage: `url(https://i.postimg.cc/K8jHhcND/Advance-Certificate-Course-BANNERS.jpg)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
