@@ -548,14 +548,14 @@ export const blogPosts = [
     date: "2025-11-18",
     author: "Star Alliance Aviation Academy",
     readTime: "10 min read",
-    image: "https://i.postimg.cc/j5Tfx3DR/Top-10-Cabin-Crew-Skills-Employers-Look-For-How-to-Prepare-Impress-BLOG-IMAGES-(1).jpg",
+    image: "https://i.postimg.cc/gjh8ZcZf/Top_10_Cabin_Crew_Skills_Employers_Look_For_How_to_Prepare_Impress_BLOG_IMAGES_(2).jpg",
     excerpt:
       "Discover the top 10 cabin crew skills airlines demand and learn how to prepare professionally through structured aviation and cabin crew training programs.",
     content: `
 <div class="max-w-4xl mx-auto px-6 py-10 blog-container text-gray-800 leading-relaxed">
  
   <img
-    src="https://i.postimg.cc/j5Tfx3DR/Top-10-Cabin-Crew-Skills-Employers-Look-For-How-to-Prepare-Impress-BLOG-IMAGES-(1).jpg"
+    src="https://i.postimg.cc/gjh8ZcZf/Top_10_Cabin_Crew_Skills_Employers_Look_For_How_to_Prepare_Impress_BLOG_IMAGES_(2).jpg"
     alt="Cadet Pilot Program vs Regular Pilot Course"
     class="w-full rounded-xl shadow-lg object-cover my-6 max-h-[500px]"
   />
