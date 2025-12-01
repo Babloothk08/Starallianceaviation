@@ -26,7 +26,7 @@ export default function Home() {
     name="description"
     content="Star Alliance Aviation Academy—India’s best aviation academy institute in Delhi, led by former DGCA experts. Comprehensive pilot, cabin crew & airline training."
   />
-  <link rel="canonical" href="https://www.starallianceaviation.com" />
+  <link rel="canonical" href="https://www.starallianceaviation.com/" />
 
   <script type="application/ld+json">
     {JSON.stringify({
