@@ -59,7 +59,7 @@ export default function AviationTravelHospital() {
                 <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-center">
                     <div className="w-full lg:w-1/2">
                         <img
-                            src="https://i.postimg.cc/KzGTCj71/Aviation-Hospitality-and-Travel-Management-500-500.jpg"
+                            src="https://i.postimg.cc/Xq5dCNCH/Aviation_Hospitality_and_Travel_Management_500_500.jpg"
                             alt="Aviation Hospitality Travel Management"
                             className="w-full max-w-md mx-auto rounded-3xl shadow-xl hover:scale-105 transition-transform duration-300"
                             loading="lazy"
