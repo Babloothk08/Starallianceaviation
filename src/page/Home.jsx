@@ -86,8 +86,8 @@ export default function Home() {
 </Helmet>
 
 
-      {/* <HeroSlider /> */}
-      <HeroSection/>
+      <HeroSlider />
+      {/* <HeroSection/> */}
       <section className="flex justify-center px-4 py-12 border-b-2">
         <div className="flex flex-col lg:flex-row max-w-6xl w-full gap-10 items-start px-4 sm:px-6 lg:px-8">
           {/* Left Content */}

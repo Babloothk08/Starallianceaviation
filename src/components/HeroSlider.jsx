@@ -16,18 +16,18 @@ const slides = [
   {
     id: 1,
     image:
-      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%201.jpg",
+      "https://i.postimg.cc/XYKFcXfJ/SA-BANNER-CABIN-CREW-FOR-HOME-PAGE.jpg",
   },
-  {
-    id: 2,
-    image:
-      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
-  },
-  {
-    id: 3,
-    image:
-      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%203.jpg",
-  },
+  // {
+  //   id: 2,
+  //   image:
+  //     "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
+  // },
+  // {
+  //   id: 3,
+  //   image:
+  //     "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%203.jpg",
+  // },
 ];
 
 export default function HeroSlider() {
