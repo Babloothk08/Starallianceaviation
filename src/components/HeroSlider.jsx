@@ -16,7 +16,7 @@ const slides = [
   {
     id: 1,
     image:
-      "https://i.postimg.cc/XYKFcXfJ/SA-BANNER-CABIN-CREW-FOR-HOME-PAGE.jpg",
+      "https://i.postimg.cc/fRZ92sWV/SA-BANNER-CABIN-CREW-FOR-HOME-PAGE.jpg",
   },
   // {
   //   id: 2,
