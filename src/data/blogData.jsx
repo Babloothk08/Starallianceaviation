@@ -1853,10 +1853,11 @@ With dedication and discipline and a supportive and professional cabin crew trai
 </div>
 `
   },
+  
   {
     id: 12,
     slug: "cabin-crew-training-institute-india-complete-guide",
-    metatitle: "Cabin Crew Training Institute in India | Star Alliance Aviation Academy",
+    metatitle: "Cabin Crew Training Institute in India |Star Alliance Aviation Academy",
     metadescription: "Looking for the right cabin crew training institute in India? Learn about eligibility, courses, Delhi institutes, and how to prepare for airline interviews.",
     canonical: "https://www.starallianceaviation.com/blog/cabin-crew-training-institute-india-complete-guide",
     title: "Cabin Crew Training Institute in India: Complete Guide for Aspiring Flight Attendants",

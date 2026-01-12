@@ -16,7 +16,7 @@ const slides = [
   {
     id: 1,
     image:
-      "https://i.postimg.cc/fRZ92sWV/SA-BANNER-CABIN-CREW-FOR-HOME-PAGE.jpg",
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/starbanner.jpg",
   },
   // {
   //   id: 2,
