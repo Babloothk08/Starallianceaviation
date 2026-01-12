@@ -17,11 +17,11 @@ const slides = [
     id: 1,
     image: { banner },
   },
-  // {
-  //   id: 2,
-  //   image:
-  //     "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
-  // },
+  {
+    id: 2,
+    image:
+      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
+  },
   // {
   //   id: 3,
   //   image:
@@ -57,8 +57,8 @@ export default function HeroSlider() {
           <SwiperSlide key={slide.id}>
             <div
               className="h-screen  bg-center bg-cover  bg-no-repeat"
-              // style={{ backgroundImage: `url(${slide.image})` }}
-              style={{ backgroundImage: `url(${banner})` }}
+              style={{ backgroundImage: `url(${slide.image})` }}
+              // style={{ backgroundImage: `url(${banner})` }}
             >
               <div className="absolute inset-0 bg-black/10" />
             </div>
