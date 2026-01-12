@@ -11,12 +11,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-creative";
-
+import banner from "../img/starbanner1.jpg"
 const slides = [
   {
     id: 1,
-    image:
-      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/starbanner.jpg",
+    image: { banner },
   },
   // {
   //   id: 2,
@@ -58,7 +57,8 @@ export default function HeroSlider() {
           <SwiperSlide key={slide.id}>
             <div
               className="h-screen  bg-center bg-cover  bg-no-repeat"
-              style={{ backgroundImage: `url(${slide.image})` }}
+              // style={{ backgroundImage: `url(${slide.image})` }}
+              style={{ backgroundImage: `url(${banner})` }}
             >
               <div className="absolute inset-0 bg-black/10" />
             </div>
