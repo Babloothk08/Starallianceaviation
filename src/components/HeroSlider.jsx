@@ -11,17 +11,17 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-creative";
-import banner from "../img/starbanner1.jpg"
+// import banner from "../img/starbanner1.jpg"
 const slides = [
   {
     id: 1,
-    image: { banner },
+    image: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/starbanner1.jpg",
   },
-  {
-    id: 2,
-    image:
-      "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
-  },
+  // {
+  //   id: 2,
+  //   image:
+  //     "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
+  // },
   // {
   //   id: 3,
   //   image:
