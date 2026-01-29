@@ -29,8 +29,8 @@ export default function PostDetail() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 sm:pt-48">
       <Helmet>
-        <title>{post.metaTitle}</title>
-        <meta name="description" content={post.metaDescription} />
+        <title>{post.metatitle}</title>
+        <meta name="description" content={post.metadescription} />
         <link rel="canonical" href={`https://www.starallianceaviation.com/blog/${post.slug}`} />
       </Helmet>
       {/* Post Image */}
