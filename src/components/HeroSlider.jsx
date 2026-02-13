@@ -15,18 +15,18 @@ import "swiper/css/effect-creative";
 const slides = [
   {
     id: 1,
-    image: "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/starbanner1.jpg",
+    image: "/banner/slider1.jpg",
   },
-  // {
-  //   id: 2,
-  //   image:
-  //     "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%202.jpg",
-  // },
-  // {
-  //   id: 3,
-  //   image:
-  //     "https://github.com/Ashish-Kaintura/starallianceaviation-/raw/main/src/img/Website%20Home%20Page%20Banner%203.jpg",
-  // },
+  {
+    id: 2,
+    image:
+      "/banner/slider2.jpg",
+  },
+  {
+    id: 3,
+    image:
+      "/banner/slider3.jpg",
+  },
 ];
 
 export default function HeroSlider() {
@@ -62,6 +62,21 @@ export default function HeroSlider() {
             >
               <div className="absolute inset-0 bg-black/10" />
             </div>
+             <div
+              className="h-screen  bg-center bg-cover  bg-no-repeat"
+              style={{ backgroundImage: `url(${slide.image})` }}
+              // style={{ backgroundImage: `url(${banner})` }}
+            >
+              <div className="absolute inset-0 bg-black/10" />
+            </div>
+             <div
+              className="h-screen  bg-center bg-cover  bg-no-repeat"
+              style={{ backgroundImage: `url(${slide.image})` }}
+              // style={{ backgroundImage: `url(${banner})` }}
+            >
+              <div className="absolute inset-0 bg-black/10" />
+            </div>
+
           </SwiperSlide>
         ))}
       </Swiper>
