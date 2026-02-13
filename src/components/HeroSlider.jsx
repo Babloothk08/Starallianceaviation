@@ -15,7 +15,7 @@ import "swiper/css/effect-creative";
 const slides = [
   {
     id: 1,
-    image: "/banner/slider1.jpg",
+    image: "/banner/homepagebanneronpilot1sliderfinal.jpg.jpeg",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const slides = [
   {
     id: 3,
     image:
-      "/banner/slider3.jpg",
+      "/banner/homepagebanneronpilot3sliderfinal.jpg.jpeg",
   },
 ];
 
