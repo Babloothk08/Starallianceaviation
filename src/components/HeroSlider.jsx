@@ -25,7 +25,7 @@ const slides = [
   {
     id: 3,
     image:
-      "/banner/homepagebanneronpilot3sliderfinal.jpg.jpeg",
+      "/banner/home-page-banner-on-pilot-3-sliderfinal.jpg.jpeg",
   },
 ];
 
