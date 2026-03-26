@@ -76,8 +76,15 @@ const ContactPage = () => {
                 <MapPin className="w-6 h-6 text-blue-700" />
               </div>
               <p className="text-gray-700 text-base">
-                E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector –
-                7, Manyavar Showroom Building New Delhi-110075
+                <span><span className="text-[#ECAA05] font-bold">Registration Office</span>- E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building New Delhi-110075</span>
+              </p>
+            </div>
+            <div className="flex items-center gap-4 bg-white/80 shadow-sm rounded-xl p-4 hover:shadow-md transition">
+              <div className="flex items-center justify-center bg-blue-100 rounded-full w-12 h-12">
+                <MapPin className="w-6 h-6 text-blue-700" />
+              </div>
+              <p className="text-gray-700 text-base">
+                <span><span className="text-[#ECAA05] font-bold">FTO Base</span>- MS-10, NH-91, Dhanipur Airstrip, Post Panethi, Aligarh, Uttar Pradesh – 202001, India</span>
               </p>
             </div>
           </div>

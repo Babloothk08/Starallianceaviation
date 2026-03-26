@@ -127,10 +127,11 @@ const Footer = () => {
           <ul className="text-sm text-gray-300 space-y-3">
             <li className="flex items-start gap-2">
               <FaMapMarkerAlt size={40} className=" text-red-400 -mt-[8px] " />
-              <span>
-                E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector –
-                7, Manyavar Showroom Building New Delhi-110075
-              </span>
+              <span><span className="text-[#ECAA05] font-bold">Registration Office</span>- E-551, 2nd, 3rd, and 4th Floor, Ramphal Chowk, Dwarka Sector – 7, Manyavar Showroom Building New Delhi-110075</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <FaMapMarkerAlt size={40} className=" text-red-400 -mt-[8px] " />
+              <span><span className="text-[#ECAA05] font-bold">FTO Base</span>- MS-10, NH-91, Dhanipur Airstrip, Post Panethi, Aligarh, Uttar Pradesh – 202001, India</span>
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-green-400" />
